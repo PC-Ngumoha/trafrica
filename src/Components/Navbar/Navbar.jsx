@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGripVertical, faClose } from '@fortawesome/free-solid-svg-icons';
+import { faGripVertical, faClose, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import Button from '../Button/Button';
 import styles from './Navbar.module.css';
 import { concatClasses } from '../../Utils/helpers';
@@ -12,6 +12,7 @@ const Navbar = () => {
     <>
       <nav className={styles.navbar}>
         <div className={ concatClasses(styles.navbarBrand, styles.section) }>
+          <FontAwesomeIcon icon={faLocationDot} />
           Trafrica
         </div>
         <ul className={ concatClasses(styles.navbarList, styles.section) }>
