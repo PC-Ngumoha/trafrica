@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playwrite+PE:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+Primary Color: #228B22 (Forest Green)
+Secondary Color: #6B4226 (Rich Brown)
+Accent Color: #FF7043 (Sunset Orange)
+Accent Color: #FFD700 (Golden Yellow)
+Complementary Color: #F0E68C (Light Khaki)
+Complementary Color: #F5F5F5 (Soft White)
+
+Text Color: #3C2415
+
+Error Color: #DC143C
+
+Logo font family: 'Playwrite PE', cursive
+General font family: 'Roboto', sans-serif;
+Section Heading fonts: 'Montserrat Alternates', sans-serif;
+*/
+
+/* Mobile */
+@media (min-width: 320px) and (max-width: 599px) {}
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 1023px) {}
+
+/* Desktop */
+@media (min-width: 1024px) {}
+
+
+:root {
+  /* COLORS */
+
+  /* General Design colors */
+  --color-primary: #228B22;
+  --color-secondary: #6B4226;
+
+  /* Accent Colors */
+  --color-accent-orange: #FF7043;
+  --color-accent-yellow: #FFD700;
+
+  /* Complementary Colors */
+  --color-light-khaki: #F0E68C;
+  --color-soft-white: #F5F5F5;
+
+  /* Extra Colors */
+  --color-text: #3C2415;
+  --color-error: #DC143C;
+
+  /* Fonts */
+
+  /* Font Families */
+  --logo-font-family: "Playwrite PE", cursive;
+  --general-font-family: "Roboto", sans-serif;
+  --section-heading-fonts: "Montserrat Alternates", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}

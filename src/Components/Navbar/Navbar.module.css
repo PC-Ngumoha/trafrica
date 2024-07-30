@@ -1,0 +1,171 @@
+/* NAVBAR STYLES */
+.navbar {
+  width: 100vw;
+  height: 5rem;
+  padding: 1rem;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: var(--general-font-family);
+}
+
+.navbarBrand {
+  font-family: var(--logo-font-family);
+  font-weight: bolder;
+  font-size: 2.4rem;
+  color: var(--color-primary);
+}
+
+.navbarList {
+  list-style: none;
+  flex: 1;
+  justify-content: space-around;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.navbarList a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+
+
+/* Mobile */
+@media (min-width: 320px) and (max-width: 599px) {
+
+  .section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .navbarBrand {
+      flex: 3;
+      padding-left: 6%;
+  }
+
+  .navbarList {
+    display: none;
+  }
+
+  .buttonContainer {
+    display: none;
+  }
+
+  .openMenu {
+    flex: 1;
+    justify-content: center;
+    font-size: 2rem;
+    color: var(--color-secondary);
+  }
+
+}
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 1023px) {
+  .section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .navbarBrand {
+    flex: 1;
+    padding-left: 6%;
+  }
+
+  .buttonContainer {
+    flex: 1;
+    justify-content: center;
+  }
+
+  .buttonContainer .button {
+    width: 30%;
+  }
+
+  .openMenu {
+    display: none;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+
+  .section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .navbarBrand {
+    flex: 2;
+    padding-left: 6%;
+    /* font-size: 2.4rem; */
+  }
+
+  .buttonContainer {
+    flex: 1;
+    justify-content: center;
+  }
+
+  .buttonContainer .button {
+    width: 25%;
+  }
+
+  .openMenu {
+    display: none;
+  }
+}
+
+/* DROPDOWN STYLES -- Only applied on mobile screens hence no breakpoints.*/
+
+.dropdown {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 30%;
+  background-color: var(--color-soft-white);
+  border: .1rem solid var(--color-secondary);
+  border-bottom-right-radius: 6rem;
+}
+
+.dropdownList {
+  list-style: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.dropdownList li {
+  display: block;
+  margin: .7rem;
+}
+
+.dropdownList a {
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+
+.dropdownButtons {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdownButtons .button {
+  width: 40%;
+}
+
+.closeMenu {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--color-secondary);
+}
