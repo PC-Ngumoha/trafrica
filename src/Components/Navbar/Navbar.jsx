@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGripVertical, faClose, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import Button from '../Button/Button';
@@ -7,10 +7,28 @@ import { concatClasses } from '../../Utils/helpers';
 
 const Navbar = () => {
   const [open, setopen] = useState(false);
+  const [posY, setPosY] = useState(window.scrollY);
+
+  useEffect(() => {
+    const updateScrollPos = () => {
+      setPosY(window.scrollY);
+    }
+
+    document.addEventListener('scroll', updateScrollPos);
+
+    return () => {
+      document.removeEventListener('scroll', updateScrollPos);
+    }
+  }, [posY]);
 
   return (
     <>
-      <nav className={styles.navbar}>
+      <nav
+        className={
+          posY === 0
+          ? concatClasses(styles.navbar, styles.sticky)
+          : concatClasses(styles.navbar, styles.sticky, styles.opaque)}
+      >
         <div className={ concatClasses(styles.navbarBrand, styles.section) }>
           <FontAwesomeIcon icon={faLocationDot} />
           Trafrica

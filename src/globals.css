@@ -63,3 +63,7 @@ Section Heading fonts: 'Montserrat Alternates', sans-serif;
 html {
   font-size: 10px;
 }
+
+body {
+  scroll-behavior: smooth;
+}
