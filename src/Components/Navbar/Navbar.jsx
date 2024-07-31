@@ -6,7 +6,7 @@ import styles from './Navbar.module.css';
 import { concatClasses } from '../../Utils/helpers';
 
 const Navbar = () => {
-  const [open, setopen] = useState(false);
+  const [open, setOpen] = useState(false);
   const [posY, setPosY] = useState(window.scrollY);
 
   useEffect(() => {
@@ -48,7 +48,7 @@ const Navbar = () => {
         <div
           className={ concatClasses(styles.openMenu, styles.section) }
           onClick={
-            () => setopen(true)
+            () => setOpen(true)
           }>
           <FontAwesomeIcon icon={faGripVertical} />
         </div>
@@ -57,7 +57,7 @@ const Navbar = () => {
       { open && (
         <div className={ styles.dropdown }>
           <div className={ styles.closeMenu } onClick={
-            () => setopen(false)
+            () => setOpen(false)
           }>
             <FontAwesomeIcon icon={faClose} />
           </div>

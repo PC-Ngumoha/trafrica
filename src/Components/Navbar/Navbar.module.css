@@ -42,7 +42,15 @@
 
 .navbarList li {
   position: relative;
-  padding: 0 0 .5rem;
+  padding-bottom: .2rem;
+  margin: 0;
+  line-height: 1.5rem;
+  transition: all 1s ease-in-out;
+}
+
+.navbarList li:hover {
+  margin: .2rem;
+  transform: scale(1.2);
 }
 
 .navbarList li::after {
