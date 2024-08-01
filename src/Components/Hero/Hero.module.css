@@ -43,6 +43,7 @@
   font-weight: bold;
   color: var(--color-accent-orange);
   letter-spacing: .2rem;
+  text-align: center;
 }
 
 .hero .button {
@@ -55,7 +56,7 @@
 /* Mobile */
 @media (min-width: 320px) and (max-width: 599px) {
   .hero .tagline {
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
 
   .hero .content {
@@ -88,6 +89,5 @@
     width: 60%;
     left: 50%;
     transform: translateX(-50%);
-    text-align: center;
   }
 }

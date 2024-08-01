@@ -2,25 +2,26 @@ import { useEffect, useState } from 'react';
 import { ReactTyped } from 'react-typed';
 import Button from '../Button/Button';
 import styles from './Hero.module.css';
-// import image from '../../Assets/Images/marakesh_morroco.jpg';
+import { marrakech, zuma_rock, victoria_falls
+} from '../../Assets/Images/index';
 
 const places = [
   {
     name: 'Marrakech',
     destination: 'Morocco',
-    url: 'https://i.ibb.co/QXq5c9z/marrakech.jpg',
+    url: marrakech,
     alt: 'Marrakesh, Morocco'
   },
   {
     name: 'Zuma Rock',
     destination: 'Nigeria',
-    url: 'https://i.ibb.co/nbY8Jq7/zuma-rock.jpg',
+    url: zuma_rock,
     alt: 'Zuma rock, Nigeria'
   },
   {
     name: 'Victoria Falls',
     destination: 'Zimbabwe',
-    url: 'https://i.ibb.co/VN0Fx3F/victoria-falls.jpg',
+    url: victoria_falls,
     alt: 'Victoria falls, Zimbabwe'
   }
 ]
@@ -30,12 +31,10 @@ const Hero = () => {
   const [done, setDone] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const TYPE = 100;
-  const BACK = 40;
 
+  let frameTimeout;
 
   useEffect(() => {
-    console.log(done);
-    let frameTimeout;
     const nextFrame = (index, restart = false) => {
       setPlace(places[index]);
       if (restart) {
@@ -63,11 +62,16 @@ const Hero = () => {
         <br />
         Visit <ReactTyped
           strings={[` ${place.name} in ${place.destination}`]}
+          startDelay={200}
           typeSpeed={TYPE}
-          backSpeed={BACK}
           cursorChar='|'
+          smartBackspace
           showCursor
-          onComplete={() => setDone(true)}
+          onStringTyped={() => {
+            frameTimeout = setTimeout(() => {
+              setDone(true);
+            }, (TYPE * 200));
+          }}
         /> </span>
         <Button className={ styles.button } message='Get Started'/>
       </div>
