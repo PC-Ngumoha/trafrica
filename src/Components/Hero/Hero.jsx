@@ -4,6 +4,7 @@ import Button from '../Button/Button';
 import styles from './Hero.module.css';
 import { marrakech, zuma_rock, victoria_falls
 } from '../../Assets/Images/index';
+import SearchBar from '../SearchBar/SearchBar';
 
 const places = [
   {
@@ -52,15 +53,18 @@ const Hero = () => {
     setDone(false);
 
     return () => clearTimeout(frameTimeout);
+    // eslint-disable-next-line
   }, [ done ]);
 
   return (
     <section id="home" className={styles.hero}>
-      <img src={ place.url } alt={ place.alt }/>
+      <div className={styles.overlay}>
+        <img src={ place.url } alt={ place.alt }/>
+      </div>
       <div className={ styles.content }>
-        <span className={ styles.tagline }>See africa as you never have before.
+        <span className={ styles.tagline }>See Africa as you never have before,
         <br />
-        Visit <ReactTyped
+        visit <ReactTyped
           strings={[` ${place.name} in ${place.destination}`]}
           startDelay={200}
           typeSpeed={TYPE}
@@ -73,8 +77,10 @@ const Hero = () => {
             }, (TYPE * 200));
           }}
         /> </span>
-        <Button className={ styles.button } message='Get Started'/>
+        <Button className={ styles.button } message='Get Started'
+        onClick={() => console.log('clicked')}/>
       </div>
+      <SearchBar />
     </section>
   );
 };
