@@ -53,7 +53,7 @@ const Destinations = () => {
   return (
     <section id='destinations' className={ styles.destinations }>
       <div>
-        <h2>Popular Destinations</h2>
+        <h2>Top Destinations</h2>
         <span>Places our users can't seem to get enough of</span>
       </div>
       <Carousel className={styles.imageCarousel} controls={false}>

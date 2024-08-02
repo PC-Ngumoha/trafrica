@@ -1,5 +1,5 @@
-
-.destinations {
+/* SPECIAL OFFERS */
+.offers {
   width: 80%;
   height: inherit;
   padding: 2rem;
@@ -7,61 +7,52 @@
   text-align: center;
 }
 
-.destinations h2 {
+.offers h2 {
   font-family: var(--section-heading-fonts);
   font-weight: bold;
   color: var(--color-primary);
 }
 
-.destinations span {
+.offers span {
   font-family: cursive;
   color: var(--color-secondary-faint);
 }
 
 /* Mobile */
 @media (min-width: 320px) and (max-width: 599px) {
-  .destinations {
+  .offers {
     width: 100%;
     padding: 2rem 1rem;
     margin-top: 1.5rem;
   }
 
-  .destinations h2 {
+  .offers h2 {
     font-size: 3rem;
   }
 
-  .destinations span {
+  .offers span {
     font-size: 1.2rem;
   }
 }
 
 /* Tablet */
 @media (min-width: 600px) and (max-width: 1023px) {
-  .destinations h2 {
+  .offers h2 {
     font-size: 3.5rem;
   }
 
-  .destinations span {
+  .offers span {
     font-size: 1.3rem;
   }
 }
 
 /* Desktop */
 @media (min-width: 1024px) {
-  .destinations h2 {
+  .offers h2 {
     font-size: 4rem;
   }
 
-  .destinations span {
+  .offers span {
     font-size: 1.3rem;
   }
 }
-
-
-/* Image Card */
-.imageCarousel {
-  width: 90%;
-  margin: 2rem auto;
-  height: fit-content;
-}
-
