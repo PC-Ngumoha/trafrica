@@ -39,6 +39,7 @@ Section Heading fonts: 'Montserrat Alternates', sans-serif;
   /* General Design colors */
   --color-primary: #228B22;
   --color-secondary: #94552a;
+  --color-secondary-faint: #94542ad7;
 
   /* Accent Colors */
   --color-accent-orange: #FF7043;

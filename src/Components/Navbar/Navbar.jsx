@@ -8,7 +8,6 @@ import { concatClasses } from '../../Utils/helpers';
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [posY, setPosY] = useState(window.scrollY);
-  // const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
   useEffect(() => {
     const updateScrollPos = () => {
