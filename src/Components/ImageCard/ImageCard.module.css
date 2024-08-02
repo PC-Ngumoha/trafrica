@@ -1,0 +1,83 @@
+/* Image Card */
+.imageCard {
+  position: relative;
+  width: 100%;
+}
+
+.imageCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: auto;
+}
+
+.imageCard .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all .8s ease-in;
+  color: transparent;
+}
+
+.imageCard .content:hover {
+  background-color: var(--color-secondary-faint);
+  color: var(--color-soft-white);
+}
+
+.imageCard h3 {
+  font-family: var(--section-heading-fonts);
+  font-weight: bold;
+}
+
+.imageCard p {
+  font-family: var(--general-font-family);
+}
+
+/* Mobile */
+@media (min-width: 320px) and (max-width: 599px) {
+  .imageCard {
+    height: 40rem;
+  }
+
+  .imageCard h3 {
+    font-size: 1.5rem;
+  }
+
+  .imageCard p {
+    font-size: .8rem;
+  }
+}
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 1023px) {
+  .imageCard {
+    height: 30rem;
+  }
+
+  .imageCard h3 {
+    font-size: 1.8rem;
+  }
+
+  .imageCard p {
+    font-size: 1rem;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .imageCard {
+    height: 40rem;
+  }
+
+  .imageCard h3 {
+    font-size: 2rem;
+  }
+
+  .imageCard p {
+    font-size: 1.2rem;
+  }
+}

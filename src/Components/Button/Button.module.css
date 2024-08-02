@@ -2,6 +2,7 @@
   height: 3rem;
   margin: 1rem;
   border-radius: 3rem;
+  font-family: var(--general-font-family);
 }
 
 .outline {

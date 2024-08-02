@@ -59,33 +59,9 @@
 
 
 /* Image Card */
-.imageCard {
-  width: 85%;
-  margin: 0 auto;
+.imageCarousel {
+  width: 90%;
+  margin: 2rem auto;
+  height: fit-content;
 }
-
-.imageCard img {
-  width: 100%;
-  height: 100%;
-  object-fit: auto;
-}
-
-
-/* Mobile */
-@media (min-width: 320px) and (max-width: 599px) {
-  .imageCard {
-    width: 100%;
-    height: 40rem;
-  }
-}
-
-/* Tablet */
-@media (min-width: 600px) and (max-width: 1023px) {
-  .imageCard {
-    height: 30rem;
-  }
-}
-
-/* Desktop */
-@media (min-width: 1024px) {}
 
