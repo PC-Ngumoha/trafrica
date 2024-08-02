@@ -1,0 +1,22 @@
+
+.destinations {
+  width: 80%;
+  height: fit-content;
+  padding: 2rem;
+  margin: 1.5rem auto;
+  text-align: center;
+}
+
+/* Mobile */
+@media (min-width: 320px) and (max-width: 599px) {
+  .destinations {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+}
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 1023px) {}
+
+/* Desktop */
+@media (min-width: 1024px) {}

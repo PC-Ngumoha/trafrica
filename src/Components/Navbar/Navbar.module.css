@@ -154,8 +154,7 @@
 /* DROPDOWN STYLES -- Only applied on mobile screens hence no breakpoints.*/
 
 .dropdown {
-  position: absolute;
-  top: 0;
+  z-index: 10;
   display: flex;
   flex-direction: column;
   align-items: center;
