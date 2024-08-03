@@ -38,7 +38,8 @@ const ourServices = [
 
 const Services = () => {
   return (
-    <section id='services' className={ styles.services }>
+    <section id='services' className={styles.services}
+    >
       <Row xs={1} md={2} lg={4}>
         {
           ourServices.map((service) => (
