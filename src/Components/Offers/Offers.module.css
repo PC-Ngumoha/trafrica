@@ -13,7 +13,7 @@
   color: var(--color-primary);
 }
 
-.offers span {
+.offers .tagline {
   font-family: cursive;
   color: var(--color-secondary-faint);
 }
@@ -55,4 +55,38 @@
   .offers span {
     font-size: 1.3rem;
   }
+}
+
+
+/* OFFER CARD */
+
+.offerCard {
+  margin: 2rem auto 0;
+  border-radius: 3rem;
+  height: 30rem;
+  padding: 0 .5rem;
+  border: 0;
+  background-color: var(--color-soft-white);
+}
+
+.offerCard img {
+  border-radius: 3rem;
+  height: 80%;
+}
+
+.offerCard .section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.offerCard .highlight {
+  font-family: var(--general-font-family);
+  color: var(--color-text);
+  font-weight: bold;
+}
+
+.offerCard .small {
+  font-size: 1rem;
 }

@@ -34,6 +34,7 @@
 }
 
 .navbarList {
+  height: 100%;
   list-style: none;
   flex: 1;
   justify-content: space-around;
@@ -80,8 +81,8 @@
 /* Mobile */
 @media (min-width: 320px) and (max-width: 599px) {
   .navbarBrand {
-      flex: 3;
-      padding-left: 10%;
+    flex: 3;
+    padding-left: 10%;
   }
 
   .navbarList {
@@ -107,6 +108,10 @@
   .navbarBrand {
     flex: 1;
     padding-left: 6%;
+  }
+
+  .navbarList {
+    flex: 1;
   }
 
   .buttonContainer {
