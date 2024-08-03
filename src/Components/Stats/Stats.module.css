@@ -1,0 +1,32 @@
+
+.stats {
+  width: 100%;
+  padding: 2rem;
+  background-color: var(--color-primary);
+}
+
+.stats div {
+  /* width: 80%; */
+  padding: 1rem 2rem;
+  margin: 0 auto;
+}
+
+.stats span {
+  display: block;
+  text-align: left;
+  font-size: 1.2rem;
+  font-family: var(--section-heading-fonts);
+  color: var(--color-soft-white);
+}
+
+.stats .count {
+  font-size: 3.2rem;
+}
+
+/* Mobile */
+@media (min-width: 320px) and (max-width: 599px) {
+  .stats .count {
+    font-size: 2.8rem;
+  }
+}
+

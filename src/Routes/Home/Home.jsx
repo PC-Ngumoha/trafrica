@@ -2,6 +2,7 @@ import Navbar from "../../Components/Navbar/Navbar";
 import Hero from "../../Components/Hero/Hero";
 import Destinations from "../../Components/Destinations/Destinations";
 import Offers from "../../Components/Offers/Offers";
+import Stats from "../../Components/Stats/Stats";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Hero />
       <Destinations />
       <Offers />
+      <Stats />
       <h1>Loading more sections...</h1>
     </>
   );
