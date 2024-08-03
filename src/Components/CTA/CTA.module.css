@@ -1,0 +1,46 @@
+
+.cta {
+  width: 100%;
+  height: fit-content;
+  background: var(--color-primary);
+  color: var(--color-soft-white);
+}
+
+.cta > div {
+  width: 80%;
+  height: 100%;
+  margin: 2rem auto;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.cta h3 {
+  font-size: 3.2rem;
+  font-family: var(--section-heading-fonts);
+  font-weight: bold;
+}
+
+.cta span {
+  font-size: 1.2rem;
+  font-family: var(--general-font-family);
+  font-weight: lighter;
+}
+
+.cta .button {
+  width: 30%;
+}
+
+/* Mobile */
+@media (min-width: 320px) and (max-width: 599px) {
+  .cta h3 {
+    font-size: 2rem;
+  }
+
+  .cta span {
+    font-size: 1rem;
+  }
+}
