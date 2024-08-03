@@ -1,0 +1,50 @@
+/* OUR SERVICES */
+.services {
+  width: 90%;
+  height: fit-content;
+  margin: 2rem auto;
+}
+
+.services .serviceCard {
+  text-align: center;
+  padding: 1.8rem;
+  margin-top: 1rem;
+  background-color: var(--color-soft-white);
+  color: var(--color-primary);
+  border: 0;
+  border-radius: 1rem;
+  transition: color 1.2s ease-in-out;
+}
+
+.services .serviceCard:hover {
+  color: var(--color-secondary);
+}
+
+.services .serviceCard .icon {
+  font-size: 3.2rem;
+}
+
+.services .serviceCard h3 {
+  font-size: 2rem;
+  display: block;
+  margin-top: 1rem;
+  font-family: var(--section-heading-fonts);
+  font-weight: bolder;
+}
+
+.services .serviceCard span {
+  font-size: 1rem;
+  font-family: var(--general-font-family);
+  font-weight: 300;
+}
+
+/* Mobile */
+@media (min-width: 320px) and (max-width: 599px) {
+  .services {
+    width: 70%;
+  }
+
+  .services .serviceCard {
+    margin-top: 2rem;
+  }
+}
