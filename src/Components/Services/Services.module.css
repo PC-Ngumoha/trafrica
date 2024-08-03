@@ -3,6 +3,13 @@
   width: 90%;
   height: fit-content;
   margin: 2rem auto;
+  text-align: center;
+}
+
+.services h2 {
+  font-family: var(--section-heading-fonts);
+  font-weight: bold;
+  color: var(--color-primary);
 }
 
 .services .serviceCard {
@@ -46,7 +53,25 @@
     width: 70%;
   }
 
+  .services h2 {
+    font-size: 3rem;
+  }
+
   .services .serviceCard {
     margin-top: 2rem;
+  }
+}
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 1023px) {
+  .services h2 {
+    font-size: 3.5rem;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .services h2 {
+    font-size: 4rem;
   }
 }

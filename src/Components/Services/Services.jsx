@@ -40,6 +40,9 @@ const Services = () => {
   return (
     <section id='services' className={styles.services}
     >
+      <div>
+        <h2>Our Services</h2>
+      </div>
       <Row xs={1} md={2} lg={4}>
         {
           ourServices.map((service) => (
