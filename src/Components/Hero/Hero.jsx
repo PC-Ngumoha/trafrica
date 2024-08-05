@@ -2,30 +2,10 @@ import { useEffect, useState } from 'react';
 import { ReactTyped } from 'react-typed';
 import Button from '../Button/Button';
 import styles from './Hero.module.css';
-import { marrakech, zuma_rock, victoria_falls
-} from '../../Assets/Images/index';
+import { places } from './Hero.fixtures';
 import SearchBar from '../SearchBar/SearchBar';
 
-const places = [
-  {
-    name: 'Marrakech',
-    destination: 'Morocco',
-    url: marrakech,
-    alt: 'Marrakesh, Morocco'
-  },
-  {
-    name: 'Zuma Rock',
-    destination: 'Nigeria',
-    url: zuma_rock,
-    alt: 'Zuma rock, Nigeria'
-  },
-  {
-    name: 'Victoria Falls',
-    destination: 'Zimbabwe',
-    url: victoria_falls,
-    alt: 'Victoria falls, Zimbabwe'
-  }
-]
+
 
 const Hero = () => {
   const [place, setPlace] = useState(places[0]);

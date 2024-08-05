@@ -1,40 +1,8 @@
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faPlaneUp,
-  faWaterLadder,
-  faBowlFood,
-  faHouse
-} from '@fortawesome/free-solid-svg-icons';
 import styles from './Services.module.css';
-
-const ourServices = [
-  {
-    id: 1,
-    icon: faPlaneUp,
-    title: 'Travel Fully Covered',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis commodo orci. Vestibulum dignissim cursus odio nec condimentum. Duis sollicitudin.'
-  },
-  {
-    id: 2,
-    icon: faWaterLadder,
-    title: 'All Amenities Provided',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis commodo orci. Vestibulum dignissim cursus odio nec condimentum. Duis sollicitudin.'
-  },
-  {
-    id: 3,
-    icon: faBowlFood,
-    title: 'Feeding Fully Covered',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis commodo orci. Vestibulum dignissim cursus odio nec condimentum. Duis sollicitudin.'
-  },
-  {
-    id: 4,
-    icon: faHouse,
-    title: 'Top-notch Accomodation',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis commodo orci. Vestibulum dignissim cursus odio nec condimentum. Duis sollicitudin.'
-  },
-];
+import { ourServices } from './Services.fixtures';
 
 const Services = () => {
   return (

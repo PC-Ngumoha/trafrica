@@ -28,11 +28,12 @@
   border-radius: .5rem;
   padding: .5rem;
   font-family: var(--general-font-family);
+  color: var(--color-text);
 }
 
 .searchBar .input::placeholder {
   font-family: var(--general-font-family);
-  font-weight: 300;
+  font-weight: 500;
   color: var(--color-primary);
 }
 
