@@ -5,6 +5,7 @@ import Offers from "../../Components/Offers/Offers";
 import Stats from "../../Components/Stats/Stats";
 import Services from "../../Components/Services/Services";
 import CTA from "../../Components/CTA/CTA";
+import Footer from "../../Components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -16,7 +17,7 @@ const Home = () => {
       <Stats />
       <Services />
       <CTA />
-      <h1>Loading more sections...</h1>
+      <Footer />
     </>
   );
 };

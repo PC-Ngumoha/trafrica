@@ -9,7 +9,7 @@
 .cta > div {
   width: 80%;
   height: 100%;
-  margin: 2rem auto;
+  margin: 2rem auto 0;
   padding: 2rem 0;
   display: flex;
   flex-direction: column;
@@ -32,6 +32,8 @@
 
 .cta .button {
   width: 30%;
+  border: .1rem solid var(--color-light-khaki);
+  color: var(--color-soft-white);
 }
 
 /* Mobile */
