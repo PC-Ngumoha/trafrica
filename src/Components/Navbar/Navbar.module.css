@@ -157,7 +157,10 @@
   }
 }
 
-/* DROPDOWN STYLES -- Only applied on mobile screens hence no breakpoints.*/
+/* DROPDOWN STYLES -- Only applied on mobile screens hence no breakpoints.
+Basically controls the styling of the dropdown that is to be displayed when the
+user clicks on the menubar on a mobile screen -- STILL BUGGY THOUGH
+*/
 
 .dropdown {
   z-index: 10;
@@ -166,7 +169,7 @@
   align-items: center;
   justify-content: space-around;
   width: 100vw;
-  height: 30%;
+  height: 40%;
   font-family: var(--general-font-family);
   background-color: var(--color-soft-white);
   border: .1rem solid var(--color-secondary);
@@ -174,6 +177,7 @@
 }
 
 .dropdownList {
+  padding: 0;
   list-style: none;
   text-align: center;
   font-weight: bold;
@@ -182,7 +186,7 @@
 
 .dropdownList li {
   display: block;
-  margin: .7rem;
+  margin-top: .7rem;
 }
 
 .dropdownList a {

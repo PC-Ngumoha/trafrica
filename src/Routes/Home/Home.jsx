@@ -1,4 +1,3 @@
-import Navbar from "../../Components/Navbar/Navbar";
 import Hero from "../../Components/Hero/Hero";
 import Destinations from "../../Components/Destinations/Destinations";
 import Offers from "../../Components/Offers/Offers";
@@ -10,7 +9,6 @@ import Footer from "../../Components/Footer/Footer";
 const Home = () => {
   return (
     <>
-      <Navbar />
       <Hero />
       <Destinations />
       <Offers />

@@ -1,9 +1,34 @@
 import React from "react";
 import ReactDOM from 'react-dom/client';
-// import { RouterProvider } from "react-router-dom";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import './globals.css';
 import App from './App';
+import Home from "./Routes/Home/Home";
+import Login from "./Routes/Login/Login";
+import Register from "./Routes/Register/Register";
+
+// Implementing a basic browser router to handle the app's routing
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+    children: [
+      {
+        path: '',
+        element: <Home />
+      },
+      {
+        path: 'login',
+        element: <Login />
+      },
+      {
+        path: 'register',
+        element: <Register />
+      }
+    ]
+  }
+]);
 
 const root = ReactDOM.createRoot(
   document.getElementById('root')
@@ -11,6 +36,6 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
