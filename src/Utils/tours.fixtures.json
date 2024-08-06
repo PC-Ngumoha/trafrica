@@ -1,0 +1,1819 @@
+{
+  "tourPackages": [
+    {
+      "id": 1,
+      "title": "Marrakech, Medina",
+      "location": "Morocco",
+      "description": "Marrakech, a vibrant city nestled at the foothills of the Atlas Mountains, is a mesmerizing blend of ancient history and modern charm. Known for its bustling souks, historic palaces, and lush gardens, Marrakech offers an immersive experience for every traveler. Wander through the labyrinthine streets of the Medina, marvel at the architectural splendor of the Koutoubia Mosque, and soak in the lively atmosphere of Jemaa el-Fna square. With its rich culture, tantalizing cuisine, and stunning landscapes, Marrakech promises an unforgettable adventure.",
+      "duration": 7,
+      "durationString": "7 days",
+      "waitTime": 7,
+      "price": 150000,
+      "per": "person",
+      "currency": "NGN",
+      "symbol": "₦",
+      "rating": 3.8,
+      "reviews": [
+        {"user": "Globetrotter3456", "rating": 5, "comment": "Wonderful adventure, highly recommend."},
+        {"user": "Wanderlust4567", "rating": 4.7, "comment": "Great trip, well worth the money."},
+        {"user": "Backpacker5678", "rating": 4.1, "comment": "Good experience, but could use better coordination."},
+        {"user": "Nomad6789", "rating": 5, "comment": "Best vacation ever! Will book again."},
+        {"user": "Jetsetter7890", "rating": 4.5, "comment": "Very enjoyable tour with friendly staff."},
+        {"user": "Traveler8901", "rating": 4.8, "comment": "Wonderful experience, highly recommend."},
+        {"user": "Explorer9012", "rating": 4.3, "comment": "Good tour, but some activities were rushed."},
+        {"user": "Adventurer0123", "rating": 5, "comment": "Incredible adventure, highly recommend."},
+        {"user": "Voyager1234", "rating": 4.6, "comment": "Well planned and executed tour."},
+        {"user": "Globetrotter2345", "rating": 4.2, "comment": "Enjoyable trip, but too many people."},
+        {"user": "Wanderlust3456", "rating": 4.9, "comment": "Fantastic tour, worth every penny."},
+        {"user": "Backpacker4567", "rating": 5, "comment": "Amazing trip, perfect vacation."},
+        {"user": "Nomad5678", "rating": 4.7, "comment": "Great tour with knowledgeable guides."},
+        {"user": "Jetsetter6789", "rating": 4.4, "comment": "Good tour, but some parts felt rushed."},
+        {"user": "Traveler7890", "rating": 5, "comment": "Loved every minute of this tour."},
+        {"user": "Explorer8901", "rating": 4.5, "comment": "Very enjoyable tour with excellent guides."},
+        {"user": "Adventurer9012", "rating": 4.8, "comment": "Wonderful trip, highly recommend."},
+        {"user": "Voyager0123", "rating": 4.1, "comment": "Good experience, but some improvements needed."},
+        {"user": "Globetrotter505", "rating": 1.1, "comment": "Total waste of money and time."},
+        {"user": "Wanderlust606", "rating": 2, "comment": "Disappointing trip, not as advertised."},
+        {"user": "Backpacker707", "rating": 2.5, "comment": "Some parts were good, but overall disappointing."},
+        {"user": "Nomad808", "rating": 2.8, "comment": "Mediocre experience, expected better."},
+        {"user": "Jetsetter909", "rating": 2.3, "comment": "Poor organization and lack of communication."},
+        {"user": "Traveler111", "rating": 1.5, "comment": "Not worth the price, very disappointing."},
+        {"user": "Explorer222", "rating": 2.7, "comment": "Had some fun moments, but overall underwhelming."},
+        {"user": "Adventurer333", "rating": 2.4, "comment": "Guides were unprofessional, not worth it."},
+        {"user": "Voyager444", "rating": 1.8, "comment": "Very disappointed with the whole experience."},
+        {"user": "Globetrotter555", "rating": 2.6, "comment": "Expected more for the price."},
+        {"user": "Wanderlust666", "rating": 2.9, "comment": "Some good parts, but overall not great."},
+        {"user": "Backpacker777", "rating": 1.2, "comment": "Terrible experience, not recommended."},
+        {"user": "Nomad888", "rating": 2.5, "comment": "Very average experience, nothing special."},
+        {"user": "Jetsetter999", "rating": 2.4, "comment": "Not what I expected, very disappointed."},
+        {"user": "Traveler123", "rating": 1.8, "comment": "Poor service and poorly managed trip."},
+        {"user": "Explorer234", "rating": 2.1, "comment": "Had some fun, but overall disappointing."},
+        {"user": "Adventurer345", "rating": 2.7, "comment": "Mediocre experience, not worth it."},
+        {"user": "Voyager456", "rating": 2.3, "comment": "Poor organization and lack of professionalism."},
+        {"user": "Globetrotter567", "rating": 1.4, "comment": "Total waste of money, very disappointing."},
+        {"user": "Wanderlust678", "rating": 2.5, "comment": "Some good moments, but overall underwhelming."},
+        {"user": "Backpacker789", "rating": 2.6, "comment": "Expected more, very mediocre experience."},
+        {"user": "Nomad890", "rating": 1.3, "comment": "Worst vacation ever, not worth it."},
+        {"user": "Jetsetter901", "rating": 2.8, "comment": "Mediocre experience, could be better."},
+        {"user": "Traveler012", "rating": 2.1, "comment": "Had some fun, but overall not great."},
+        {"user": "Explorer1234", "rating": 2.4, "comment": "Poor service and lack of communication."},
+        {"user": "Adventurer2345", "rating": 2.7, "comment": "Very average experience, not worth the price."},
+        {"user": "Voyager3456", "rating": 1.9, "comment": "Very disappointing trip, not recommended."},
+        {"user": "Globetrotter4567", "rating": 2.2, "comment": "Expected more, very underwhelming."},
+        {"user": "Wanderlust5678", "rating": 1.7, "comment": "Terrible experience, very disappointing."},
+        {"user": "Backpacker6789", "rating": 2.5, "comment": "Mediocre trip, not worth it."},
+        {"user": "Nomad7890", "rating": 2.3, "comment": "Poor organization and lack of professionalism."},
+        {"user": "Jetsetter8901", "rating": 2.6, "comment": "Had some fun, but overall disappointing."},
+        {"user": "Traveler9012", "rating": 1.8, "comment": "Not worth the price, very disappointing."},
+        {"user": "Explorer0123", "rating": 2.5, "comment": "Some good parts, but overall not great."},
+        {"user": "Adventurer1234", "rating": 2.1, "comment": "Expected more, very underwhelming."},
+        {"user": "Voyager2345", "rating": 2.7, "comment": "Poor service and poorly managed trip."},
+        {"user": "Globetrotter3456", "rating": 2.2, "comment": "Mediocre experience, could be better."},
+        {"user": "Wanderlust4567", "rating": 1.9, "comment": "Very disappointing trip, not worth it."},
+        {"user": "Backpacker5678", "rating": 2.4, "comment": "Had some fun, but overall not great."},
+        {"user": "Nomad6789", "rating": 2.1, "comment": "Very average experience, not worth the price."},
+        {"user": "Jetsetter7890", "rating": 1.5, "comment": "Worst vacation ever, not recommended."},
+        {"user": "Traveler8901", "rating": 2.8, "comment": "Some good moments, but overall underwhelming."},
+        {"user": "Explorer9012", "rating": 2.3, "comment": "Poor organization and lack of communication."},
+        {"user": "Adventurer0123", "rating": 2.6, "comment": "Expected more, very mediocre experience."},
+        {"user": "Voyager1234", "rating": 1.9, "comment": "Total waste of money, very disappointing."},
+        {"user": "Globetrotter2345", "rating": 2.4, "comment": "Had some fun, but overall not great."},
+        {"user": "Wanderlust3456", "rating": 2.7, "comment": "Very average experience, not worth the price."},
+        {"user": "Backpacker4567", "rating": 2.2, "comment": "Poor service and poorly managed trip."},
+        {"user": "Nomad5678", "rating": 2.5, "comment": "Some good moments, but overall underwhelming."},
+        {"user": "Jetsetter6789", "rating": 1.8, "comment": "Very disappointing trip, not worth it."},
+        {"user": "Traveler7890", "rating": 2.1, "comment": "Expected more, very underwhelming."},
+        {"user": "Explorer8901", "rating": 2.6, "comment": "Mediocre experience, could be better"}
+      ],
+      "highlights": [
+        "Exploring the Medina",
+        "Visiting Jemaa el-Fna",
+        "Admiring Koutoubia Mosque",
+        "Touring Bahia Palace",
+        "Relaxing in Majorelle Garden"
+      ],
+      "inclusions": {
+        "meals": "All meals included",
+        "accommodations": "Luxury lodges",
+        "transportation": "All transfers and flights included"
+      },
+      "exclusions": [
+        "Personal expenses",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "description": "Arrival and transfer to riad."
+        },
+        {
+          "day": 2,
+          "description": "Guided tour of the Medina and visit to Jemaa el-Fna."
+        },
+        {
+          "day": 3,
+          "description": "Visit to Koutoubia Mosque and Bahia Palace."
+        },
+        {
+          "day": 4,
+          "description": "Explore Majorelle Garden and the Saadian Tombs."
+        },
+        {
+          "day": 5,
+          "description": "Day trip to the Atlas Mountains and Ourika Valley."
+        },
+        {
+          "day": 6,
+          "description": "Shopping in the souks and leisure time."
+        },
+        {
+          "day": 7,
+          "description": "Departure from Marrakech."
+        }
+      ],
+      "groupSize": {
+        "min": 2,
+        "max": 12
+      },
+      "images": [
+        "https://i.ibb.co/djSSXfT/morocco-castle-interior.jpg",
+        "https://i.ibb.co/qjp9PqL/morocco-busy-street.jpg",
+        "https://i.ibb.co/18dmBFX/morocco-castle-1.jpg"
+      ],
+      "contactInfo": {
+        "phone": "+2347089699162",
+        "email": "info@trafrica.com"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Hassan II Mosque",
+      "location": "Morocco",
+      "description": "Hassan II Mosque, located in Casablanca, is one of the largest mosques in the world and a masterpiece of modern Islamic architecture. Built partly on the Atlantic Ocean, the mosque boasts a stunning minaret, intricate tilework, and a retractable roof, making it a must-visit landmark in Morocco.",
+      "duration": 7,
+      "durationString": "7 days",
+      "waitTime": 7,
+      "price": 130000,
+      "per": "person",
+      "currency": "NGN",
+      "symbol": "₦",
+      "rating": 3.8,
+      "reviews": [
+        {"user": "Jetsetter7890", "rating": 1.5, "comment": "Worst vacation ever, not recommended."},
+        {"user": "Traveler8901", "rating": 2.8, "comment": "Some good moments, but overall underwhelming."},
+        {"user": "Explorer9012", "rating": 2.3, "comment": "Poor organization and lack of communication."},
+        {"user": "Adventurer0123", "rating": 2.6, "comment": "Expected more, very mediocre experience."},
+        {"user": "Voyager1234", "rating": 1.9, "comment": "Total waste of money, very disappointing."},
+        {"user": "Globetrotter2345", "rating": 2.4, "comment": "Had some fun, but overall not great."},
+        {"user": "Wanderlust3456", "rating": 2.7, "comment": "Very average experience, not worth the price."},
+        {"user": "Backpacker4567", "rating": 2.2, "comment": "Poor service and poorly managed trip."},
+        {"user": "Nomad5678", "rating": 2.5, "comment": "Some good moments, but overall underwhelming."},
+        {"user": "Jetsetter6789", "rating": 1.8, "comment": "Very disappointing trip, not worth it."},
+        {"user": "Traveler7890", "rating": 2.1, "comment": "Expected more, very underwhelming."},
+        {"user": "Explorer8901", "rating": 2.6, "comment": "Mediocre experience, could be better"},
+        {"user": "Wanderlust3456", "rating": 4.9, "comment": "Fantastic tour, worth every penny."},
+        {"user": "Backpacker4567", "rating": 5, "comment": "Amazing trip, perfect vacation."},
+        {"user": "Nomad5678", "rating": 4.7, "comment": "Great tour with knowledgeable guides."},
+        {"user": "Jetsetter6789", "rating": 4.4, "comment": "Good tour, but some parts felt rushed."},
+        {"user": "Traveler7890", "rating": 5, "comment": "Loved every minute of this tour."},
+        {"user": "Explorer8901", "rating": 4.5, "comment": "Very enjoyable tour with excellent guides."},
+        {"user": "Adventurer9012", "rating": 4.8, "comment": "Wonderful trip, highly recommend."},
+        {"user": "Voyager0123", "rating": 4.1, "comment": "Good experience, but some improvements needed."}
+      ],
+      "highlights": [
+        "Guided Mosque Tours",
+        "Architectural Marvels",
+        "Oceanfront Views"
+      ],
+      "inclusions": {
+        "meals": "All meals included",
+        "accommodations": "Luxury lodges",
+        "transportation": "All transfers and flights included"
+      },
+      "exclusions": [
+        "Personal expenses",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "description": "Arrival and transfer to hotel."
+        },
+        {
+          "day": 2,
+          "description": "Guided tour of Hassan II Mosque."
+        },
+        {
+          "day": 3,
+          "description": "Explore the Old Medina of Casablanca."
+        },
+        {
+          "day": 4,
+          "description": "Visit to the Casablanca Corniche and leisure time."
+        },
+        {
+          "day": 5,
+          "description": "Day trip to Rabat, Morocco's capital."
+        },
+        {
+          "day": 6,
+          "description": "Shopping in local markets and relax."
+        },
+        {
+          "day": 7,
+          "description": "Departure from Casablanca."
+        }
+      ],
+      "groupSize": {
+        "min": 2,
+        "max": 12
+      },
+      "images": [
+        "https://i.ibb.co/FJk9Y3K/morocco-stairs-people.jpg",
+        "https://i.ibb.co/xMZ6Z7w/morocco-castle-2.jpg"
+      ],
+      "contactInfo": {
+        "phone": "+2347089699162",
+        "email": "info@trafrica.com"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Chefchaouen",
+      "location": "Morocco",
+      "description": "Chefchaouen, known as the \"Blue Pearl\" of Morocco, is a picturesque town nestled in the Rif Mountains. Renowned for its striking blue-washed buildings and charming streets, Chefchaouen offers a unique and serene atmosphere, making it a popular destination for travelers seeking beauty and tranquility.",
+      "duration": 7,
+      "durationString": "7 days",
+      "waitTime": 7,
+      "price": 140000,
+      "per": "person",
+      "currency": "NGN",
+      "symbol": "₦",
+      "rating": 3.6,
+      "reviews": [
+        {"user": "Adventurer0123", "rating": 2.6, "comment": "Expected more, very mediocre experience."},
+        {"user": "Voyager1234", "rating": 1.9, "comment": "Total waste of money, very disappointing."},
+        {"user": "Globetrotter2345", "rating": 2.4, "comment": "Had some fun, but overall not great."},
+        {"user": "Wanderlust3456", "rating": 2.7, "comment": "Very average experience, not worth the price."},
+        {"user": "Backpacker4567", "rating": 2.2, "comment": "Poor service and poorly managed trip."},
+        {"user": "Nomad5678", "rating": 2.5, "comment": "Some good moments, but overall underwhelming."},
+        {"user": "Jetsetter6789", "rating": 1.8, "comment": "Very disappointing trip, not worth it."},
+        {"user": "Traveler7890", "rating": 2.1, "comment": "Expected more, very underwhelming."},
+        {"user": "Explorer8901", "rating": 2.6, "comment": "Mediocre experience, could be better"},
+        {"user": "Adventurer0123", "rating": 5, "comment": "Incredible adventure, highly recommend."},
+        {"user": "Voyager1234", "rating": 4.6, "comment": "Well planned and executed tour."},
+        {"user": "Globetrotter2345", "rating": 4.2, "comment": "Enjoyable trip, but too many people."},
+        {"user": "Wanderlust3456", "rating": 4.9, "comment": "Fantastic tour, worth every penny."},
+        {"user": "Backpacker4567", "rating": 5, "comment": "Amazing trip, perfect vacation."},
+        {"user": "Nomad5678", "rating": 4.7, "comment": "Great tour with knowledgeable guides."},
+        {"user": "Jetsetter6789", "rating": 4.4, "comment": "Good tour, but some parts felt rushed."},
+        {"user": "Traveler7890", "rating": 5, "comment": "Loved every minute of this tour."},
+        {"user": "Explorer8901", "rating": 4.5, "comment": "Very enjoyable tour with excellent guides."},
+        {"user": "Adventurer9012", "rating": 4.8, "comment": "Wonderful trip, highly recommend."},
+        {"user": "Voyager0123", "rating": 4.1, "comment": "Good experience, but some improvements needed."}
+      ],
+      "highlights": [
+        "Walking Tours of the Blue Streets",
+        "Scenic Mountain Views",
+        "Local Handicraft Shopping"
+      ],
+      "inclusions": {
+        "meals": "All meals included",
+        "accommodations": "Luxury lodges",
+        "transportation": "All transfers and flights included"
+      },
+      "exclusions": [
+        "Personal expenses",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "description": "Arrival and transfer to riad."
+        },
+        {
+          "day": 2,
+          "description": "Guided walking tour of Chefchaouen's blue streets."
+        },
+        {
+          "day": 3,
+          "description": "Visit to the Kasbah Museum and Outa el Hammam Square."
+        },
+        {
+          "day": 4,
+          "description": "Hike in the Rif Mountains and explore Akchour waterfalls."
+        },
+        {
+          "day": 5,
+          "description": "Experience local cuisine and shopping for handicrafts."
+        },
+        {
+          "day": 6,
+          "description": "Leisure day to explore or relax at your own pace."
+        },
+        {
+          "day": 7,
+          "description": "Departure from Chefchaouen."
+        }
+      ],
+      "groupSize": {
+        "min": 2,
+        "max": 12
+      },
+      "images": [
+        "https://i.ibb.co/5jpPQfL/morocco-chefchaouen.jpg",
+        "https://i.ibb.co/qjp9PqL/morocco-busy-street.jpg"
+      ],
+      "contactInfo": {
+        "phone": "+2347089699162",
+        "email": "info@trafrica.com"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Djemaa El Fna",
+      "location": "Morocco",
+      "description": "Djemaa el-Fna is the vibrant main square in Marrakech, Morocco, renowned for its dynamic atmosphere and cultural richness. By day, it’s a bustling market filled with vendors and entertainers, while at night, it transforms into a lively hub of food stalls, music, and performances, offering an unforgettable experience.",
+      "duration": 7,
+      "durationString": "7 days",
+      "waitTime": 7,
+      "price": 120000,
+      "per": "person",
+      "currency": "NGN",
+      "symbol": "₦",
+      "rating": 4.8,
+      "reviews": [
+        {"user": "Backpacker4567", "rating": 2.2, "comment": "Poor service and poorly managed trip."},
+        {"user": "Nomad5678", "rating": 2.5, "comment": "Some good moments, but overall underwhelming."},
+        {"user": "Jetsetter6789", "rating": 1.8, "comment": "Very disappointing trip, not worth it."},
+        {"user": "Traveler7890", "rating": 2.1, "comment": "Expected more, very underwhelming."},
+        {"user": "Explorer8901", "rating": 2.6, "comment": "Mediocre experience, could be better"},
+        {"user": "Nomad7890", "rating": 5, "comment": "Best trip ever! Highly recommend."},
+        {"user": "Jetsetter8901", "rating": 4.6, "comment": "Fantastic experience, well-organized."},
+        {"user": "Traveler9012", "rating": 4.2, "comment": "Good tour, but some improvements needed."},
+        {"user": "Explorer0123", "rating": 4.9, "comment": "Incredible experience, perfect vacation."},
+        {"user": "Adventurer1234", "rating": 5, "comment": "Amazing tour, exceeded expectations."},
+        {"user": "Voyager2345", "rating": 4.4, "comment": "Enjoyable trip, but a bit crowded."},
+        {"user": "Globetrotter3456", "rating": 5, "comment": "Wonderful adventure, highly recommend."},
+        {"user": "Wanderlust4567", "rating": 4.7, "comment": "Great trip, well worth the money."},
+        {"user": "Backpacker5678", "rating": 4.1, "comment": "Good experience, but could use better coordination."},
+        {"user": "Nomad6789", "rating": 5, "comment": "Best vacation ever! Will book again."},
+        {"user": "Jetsetter7890", "rating": 4.5, "comment": "Very enjoyable tour with friendly staff."},
+        {"user": "Traveler8901", "rating": 4.8, "comment": "Wonderful experience, highly recommend."},
+        {"user": "Explorer9012", "rating": 4.3, "comment": "Good tour, but some activities were rushed."},
+        {"user": "Adventurer0123", "rating": 5, "comment": "Incredible adventure, highly recommend."},
+        {"user": "Voyager1234", "rating": 4.6, "comment": "Well planned and executed tour."},
+        {"user": "Globetrotter2345", "rating": 4.2, "comment": "Enjoyable trip, but too many people."},
+        {"user": "Wanderlust3456", "rating": 4.9, "comment": "Fantastic tour, worth every penny."},
+        {"user": "Backpacker4567", "rating": 5, "comment": "Amazing trip, perfect vacation."},
+        {"user": "Nomad5678", "rating": 4.7, "comment": "Great tour with knowledgeable guides."},
+        {"user": "Jetsetter6789", "rating": 4.4, "comment": "Good tour, but some parts felt rushed."},
+        {"user": "Traveler7890", "rating": 5, "comment": "Loved every minute of this tour."},
+        {"user": "Explorer8901", "rating": 4.5, "comment": "Very enjoyable tour with excellent guides."},
+        {"user": "Adventurer9012", "rating": 4.8, "comment": "Wonderful trip, highly recommend."},
+        {"user": "Voyager0123", "rating": 4.1, "comment": "Good experience, but some improvements needed."}
+      ],
+      "highlights": [
+        "Cultural Street Performances",
+        "Traditional Food Stalls",
+        "Souk Shopping Experience"
+      ],
+      "inclusions": {
+        "meals": "All meals included",
+        "accommodations": "Luxury lodges",
+        "transportation": "All transfers and flights included"
+      },
+      "exclusions": [
+        "Personal expenses",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "description": "Arrival and transfer to accommodation."
+        },
+        {
+          "day": 2,
+          "description": "Explore Djemaa el-Fna during the day, visiting local markets."
+        },
+        {
+          "day": 3,
+          "description": "Evening visit to Djemaa el-Fna for food stalls and entertainment."
+        },
+        {
+          "day": 4,
+          "description": "Guided tour of the surrounding Medina."
+        },
+        {
+          "day": 5,
+          "description": "Visit nearby historical sites like Koutoubia Mosque and Bahia Palace."
+        },
+        {
+          "day": 6,
+          "description": "Relax and enjoy local cafes and leisure activities."
+        },
+        {
+          "day": 7,
+          "description": "Departure from Marrakech."
+        }
+      ],
+      "groupSize": {
+        "min": 2,
+        "max": 12
+      },
+      "images": [
+        "https://i.ibb.co/sjbSFYN/djemaa-el-fina.jpg",
+        "https://i.ibb.co/djSSXfT/morocco-castle-interior.jpg"
+      ],
+      "contactInfo": {
+        "phone": "+2347089699162",
+        "email": "info@trafrica.com"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Ouzoud Falls",
+      "location": "Morocco",
+      "description": "Ouzoud Falls, located in the Atlas Mountains of Morocco, is one of the country's most stunning natural wonders. With its cascading waterfalls plunging over 100 meters, lush surroundings, and picturesque setting, Ouzoud Falls offers a serene escape and spectacular photo opportunities.",
+      "duration": 7,
+      "durationString": "7 days",
+      "waitTime": 7,
+      "price": 130000,
+      "per": "person",
+      "currency": "NGN",
+      "symbol": "₦",
+      "rating": 3.8,
+      "reviews": [
+        {"user": "Traveler8901", "rating": 2.8, "comment": "Some good moments, but overall underwhelming."},
+        {"user": "Explorer9012", "rating": 2.3, "comment": "Poor organization and lack of communication."},
+        {"user": "Adventurer0123", "rating": 2.6, "comment": "Expected more, very mediocre experience."},
+        {"user": "Voyager1234", "rating": 1.9, "comment": "Total waste of money, very disappointing."},
+        {"user": "Globetrotter2345", "rating": 2.4, "comment": "Had some fun, but overall not great."},
+        {"user": "Wanderlust3456", "rating": 2.7, "comment": "Very average experience, not worth the price."},
+        {"user": "Backpacker4567", "rating": 2.2, "comment": "Poor service and poorly managed trip."},
+        {"user": "Nomad5678", "rating": 2.5, "comment": "Some good moments, but overall underwhelming."},
+        {"user": "Jetsetter6789", "rating": 1.8, "comment": "Very disappointing trip, not worth it."},
+        {"user": "Traveler7890", "rating": 2.1, "comment": "Expected more, very underwhelming."},
+        {"user": "Explorer8901", "rating": 2.6, "comment": "Mediocre experience, could be better"},
+        {"user": "Wanderlust4567", "rating": 4.7, "comment": "Great trip, well worth the money."},
+        {"user": "Backpacker5678", "rating": 4.1, "comment": "Good experience, but could use better coordination."},
+        {"user": "Nomad6789", "rating": 5, "comment": "Best vacation ever! Will book again."},
+        {"user": "Jetsetter7890", "rating": 4.5, "comment": "Very enjoyable tour with friendly staff."},
+        {"user": "Traveler8901", "rating": 4.8, "comment": "Wonderful experience, highly recommend."},
+        {"user": "Explorer9012", "rating": 4.3, "comment": "Good tour, but some activities were rushed."},
+        {"user": "Adventurer0123", "rating": 5, "comment": "Incredible adventure, highly recommend."},
+        {"user": "Voyager1234", "rating": 4.6, "comment": "Well planned and executed tour."},
+        {"user": "Globetrotter2345", "rating": 4.2, "comment": "Enjoyable trip, but too many people."},
+        {"user": "Wanderlust3456", "rating": 4.9, "comment": "Fantastic tour, worth every penny."},
+        {"user": "Backpacker4567", "rating": 5, "comment": "Amazing trip, perfect vacation."},
+        {"user": "Nomad5678", "rating": 4.7, "comment": "Great tour with knowledgeable guides."},
+        {"user": "Jetsetter6789", "rating": 4.4, "comment": "Good tour, but some parts felt rushed."},
+        {"user": "Traveler7890", "rating": 5, "comment": "Loved every minute of this tour."},
+        {"user": "Explorer8901", "rating": 4.5, "comment": "Very enjoyable tour with excellent guides."},
+        {"user": "Adventurer9012", "rating": 4.8, "comment": "Wonderful trip, highly recommend."},
+        {"user": "Voyager0123", "rating": 4.1, "comment": "Good experience, but some improvements needed."}
+      ],
+      "highlights": [
+        "Scenic Waterfall Views",
+        "Hiking Trails",
+        "Boat Rides and Monkey Sightings"
+      ],
+      "inclusions": {
+        "meals": "All meals included",
+        "accommodations": "Luxury lodges",
+        "transportation": "All transfers and flights included"
+      },
+      "exclusions": [
+        "Personal expenses",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "description": "Arrival and transfer to accommodation near Ouzoud Falls."
+        },
+        {
+          "day": 2,
+          "description": "Guided tour to Ouzoud Falls with hiking and waterfall viewing."
+        },
+        {
+          "day": 3,
+          "description": "Boat ride at the base of the falls and monkey watching."
+        },
+        {
+          "day": 4,
+          "description": "Explore local Berber villages and enjoy traditional cuisine."
+        },
+        {
+          "day": 5,
+          "description": "Leisure time to relax or explore nearby natural attractions."
+        },
+        {
+          "day": 6,
+          "description": "Return trip to Marrakech with stops at scenic viewpoints."
+        },
+        {
+          "day": 7,
+          "description": "Departure from Marrakech."
+        }
+      ],
+      "groupSize": {
+        "min": 2,
+        "max": 12
+      },
+      "images": [
+        "https://i.ibb.co/9bCztwz/natural-africa-waterfall-3.jpg",
+        "https://i.ibb.co/Wt1bCpb/natural-africa-waterfall-2.jpg"
+      ],
+      "contactInfo": {
+        "phone": "+2347089699162",
+        "email": "info@trafrica.com"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Yankari National Park",
+      "location": "Nigeria",
+      "description": "Yankari National Park, located in northeastern Nigeria, is a premier wildlife reserve known for its diverse ecosystems and rich wildlife. Home to elephants, baboons, and various bird species, the park also features natural springs and scenic landscapes, making it a top destination for nature enthusiasts and adventure seekers.",
+      "duration": 7,
+      "durationString": "7 days",
+      "waitTime": 7,
+      "price": 160000,
+      "per": "person",
+      "currency": "NGN",
+      "symbol": "₦",
+      "rating": 4.2,
+      "reviews": [
+        {"user": "Backpacker6789", "rating": 2.5, "comment": "Mediocre trip, not worth it."},
+        {"user": "Nomad7890", "rating": 2.3, "comment": "Poor organization and lack of professionalism."},
+        {"user": "Jetsetter8901", "rating": 2.6, "comment": "Had some fun, but overall disappointing."},
+        {"user": "Traveler9012", "rating": 1.8, "comment": "Not worth the price, very disappointing."},
+        {"user": "Explorer0123", "rating": 2.5, "comment": "Some good parts, but overall not great."},
+        {"user": "Adventurer1234", "rating": 2.1, "comment": "Expected more, very underwhelming."},
+        {"user": "Voyager2345", "rating": 2.7, "comment": "Poor service and poorly managed trip."},
+        {"user": "Globetrotter3456", "rating": 2.2, "comment": "Mediocre experience, could be better."},
+        {"user": "Wanderlust4567", "rating": 1.9, "comment": "Very disappointing trip, not worth it."},
+        {"user": "Backpacker5678", "rating": 2.4, "comment": "Had some fun, but overall not great."},
+        {"user": "Nomad6789", "rating": 2.1, "comment": "Very average experience, not worth the price."},
+        {"user": "Jetsetter7890", "rating": 1.5, "comment": "Worst vacation ever, not recommended."},
+        {"user": "Traveler8901", "rating": 2.8, "comment": "Some good moments, but overall underwhelming."},
+        {"user": "Explorer9012", "rating": 2.3, "comment": "Poor organization and lack of communication."},
+        {"user": "Adventurer0123", "rating": 2.6, "comment": "Expected more, very mediocre experience."},
+        {"user": "Voyager1234", "rating": 1.9, "comment": "Total waste of money, very disappointing."},
+        {"user": "Globetrotter2345", "rating": 2.4, "comment": "Had some fun, but overall not great."},
+        {"user": "Wanderlust3456", "rating": 2.7, "comment": "Very average experience, not worth the price."},
+        {"user": "Backpacker4567", "rating": 2.2, "comment": "Poor service and poorly managed trip."},
+        {"user": "Nomad5678", "rating": 2.5, "comment": "Some good moments, but overall underwhelming."},
+        {"user": "Jetsetter6789", "rating": 1.8, "comment": "Very disappointing trip, not worth it."},
+        {"user": "Traveler7890", "rating": 2.1, "comment": "Expected more, very underwhelming."},
+        {"user": "Explorer8901", "rating": 2.6, "comment": "Mediocre experience, could be better"},
+        {"user": "Adventurer303", "rating": 5, "comment": "Best vacation ever! Will book again."},
+        {"user": "Voyager404", "rating": 4.6, "comment": "Well planned and executed tour."},
+        {"user": "Globetrotter505", "rating": 4.1, "comment": "Good experience, but some activities were rushed."},
+        {"user": "Wanderlust606", "rating": 5, "comment": "Exceeded my expectations, fantastic trip!"},
+        {"user": "Backpacker707", "rating": 4.5, "comment": "Great tour with knowledgeable guides."},
+        {"user": "Nomad808", "rating": 4.8, "comment": "Amazing sights and comfortable accommodations."},
+        {"user": "Jetsetter909", "rating": 4.3, "comment": "Enjoyable trip, but the itinerary was tight."},
+        {"user": "Traveler111", "rating": 5, "comment": "Perfectly organized and very enjoyable."},
+        {"user": "Explorer222", "rating": 4.7, "comment": "Fantastic experience, highly recommend!"},
+        {"user": "Adventurer333", "rating": 4.4, "comment": "Great tour, but some parts felt rushed."},
+        {"user": "Voyager444", "rating": 5, "comment": "Loved every part of this tour."},
+        {"user": "Globetrotter555", "rating": 4.6, "comment": "Excellent tour with great guides."},
+        {"user": "Wanderlust666", "rating": 4.9, "comment": "Amazing trip, worth every penny."},
+        {"user": "Backpacker777", "rating": 4.2, "comment": "Good experience, but could use better coordination."},
+        {"user": "Nomad888", "rating": 5, "comment": "Best trip ever! Will definitely recommend."},
+        {"user": "Jetsetter999", "rating": 4.5, "comment": "Very enjoyable tour with friendly staff."},
+        {"user": "Traveler123", "rating": 4.8, "comment": "Wonderful experience, highly recommend."},
+        {"user": "Explorer234", "rating": 4.1, "comment": "Good tour, but some improvements needed."},
+        {"user": "Adventurer345", "rating": 5, "comment": "Incredible adventure, will book again."},
+        {"user": "Voyager456", "rating": 4.7, "comment": "Great tour, well worth the money."},
+        {"user": "Globetrotter567", "rating": 4.3, "comment": "Enjoyable trip, but too many people."},
+        {"user": "Wanderlust678", "rating": 5, "comment": "Fantastic tour, highly recommend!"},
+        {"user": "Backpacker789", "rating": 4.6, "comment": "Well-organized and fun experience."},
+        {"user": "Nomad890", "rating": 4.2, "comment": "Good trip, but some activities were rushed."},
+        {"user": "Jetsetter901", "rating": 4.9, "comment": "Amazing experience, perfect vacation."},
+        {"user": "Traveler012", "rating": 5, "comment": "Loved every minute, great service."},
+        {"user": "Explorer1234", "rating": 4.5, "comment": "Very enjoyable tour with excellent guides."},
+        {"user": "Adventurer2345", "rating": 4.8, "comment": "Wonderful trip, highly recommend."},
+        {"user": "Voyager3456", "rating": 4.1, "comment": "Good experience, but some parts were rushed."},
+        {"user": "Globetrotter4567", "rating": 5, "comment": "Unforgettable adventure, will book again."},
+        {"user": "Wanderlust5678", "rating": 4.7, "comment": "Great value for the money, highly enjoyable."},
+        {"user": "Backpacker6789", "rating": 4.3, "comment": "Amazing tour, but food could be better."},
+        {"user": "Nomad7890", "rating": 5, "comment": "Best trip ever! Highly recommend."},
+        {"user": "Jetsetter8901", "rating": 4.6, "comment": "Fantastic experience, well-organized."},
+        {"user": "Traveler9012", "rating": 4.2, "comment": "Good tour, but some improvements needed."},
+        {"user": "Explorer0123", "rating": 4.9, "comment": "Incredible experience, perfect vacation."},
+        {"user": "Adventurer1234", "rating": 5, "comment": "Amazing tour, exceeded expectations."},
+        {"user": "Voyager2345", "rating": 4.4, "comment": "Enjoyable trip, but a bit crowded."},
+        {"user": "Globetrotter3456", "rating": 5, "comment": "Wonderful adventure, highly recommend."},
+        {"user": "Wanderlust4567", "rating": 4.7, "comment": "Great trip, well worth the money."},
+        {"user": "Backpacker5678", "rating": 4.1, "comment": "Good experience, but could use better coordination."},
+        {"user": "Nomad6789", "rating": 5, "comment": "Best vacation ever! Will book again."},
+        {"user": "Jetsetter7890", "rating": 4.5, "comment": "Very enjoyable tour with friendly staff."},
+        {"user": "Traveler8901", "rating": 4.8, "comment": "Wonderful experience, highly recommend."},
+        {"user": "Explorer9012", "rating": 4.3, "comment": "Good tour, but some activities were rushed."},
+        {"user": "Adventurer0123", "rating": 5, "comment": "Incredible adventure, highly recommend."},
+        {"user": "Voyager1234", "rating": 4.6, "comment": "Well planned and executed tour."},
+        {"user": "Globetrotter2345", "rating": 4.2, "comment": "Enjoyable trip, but too many people."},
+        {"user": "Wanderlust3456", "rating": 4.9, "comment": "Fantastic tour, worth every penny."},
+        {"user": "Backpacker4567", "rating": 5, "comment": "Amazing trip, perfect vacation."},
+        {"user": "Nomad5678", "rating": 4.7, "comment": "Great tour with knowledgeable guides."},
+        {"user": "Jetsetter6789", "rating": 4.4, "comment": "Good tour, but some parts felt rushed."},
+        {"user": "Traveler7890", "rating": 5, "comment": "Loved every minute of this tour."},
+        {"user": "Explorer8901", "rating": 4.5, "comment": "Very enjoyable tour with excellent guides."},
+        {"user": "Adventurer9012", "rating": 4.8, "comment": "Wonderful trip, highly recommend."},
+        {"user": "Voyager0123", "rating": 4.1, "comment": "Good experience, but some improvements needed."}
+      ],
+      "highlights": [
+        "Wildlife Safaris",
+        "Natural Springs and Hot Springs",
+        "Bird Watching"
+      ],
+      "inclusions": {
+        "meals": "All meals included",
+        "accommodations": "Luxury lodges",
+        "transportation": "All transfers and flights included"
+      },
+      "exclusions": [
+        "Personal expenses",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "description": "Arrival and transfer to lodge in Yankari National Park."
+        },
+        {
+          "day": 2,
+          "description": "Morning and afternoon game drives to spot wildlife."
+        },
+        {
+          "day": 3,
+          "description": "Visit to Wikki Warm Springs and enjoy a swim."
+        },
+        {
+          "day": 4,
+          "description": "Guided walking tour and bird watching in the park."
+        },
+        {
+          "day": 5,
+          "description": "Explore nearby cultural sites and local communities."
+        },
+        {
+          "day": 6,
+          "description": "Relax and enjoy leisure activities at the lodge."
+        },
+        {
+          "day": 7,
+          "description": "Departure from Yankari National Park."
+        }
+      ],
+      "groupSize": {
+        "min": 2,
+        "max": 12
+      },
+      "images": [
+        "https://i.ibb.co/tHG6PJZ/nigeria-canoe-paddle.jpg",
+        "https://i.ibb.co/0Qj6fdY/natural-africa-stare.jpg",
+        "https://i.ibb.co/KzHYQLx/natural-africa-roaring-lions.jpg",
+        "https://i.ibb.co/99VMdM1/natural-africa-waterfall-1.jpg"
+      ],
+      "contactInfo": {
+        "phone": "+2347089699162",
+        "email": "info@trafrica.com"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Olumo Rock",
+      "location": "Nigeria",
+      "description": "Olumo Rock, located in Abeokuta, Nigeria, is a striking natural monument offering panoramic views of the city and surrounding areas. The rock is a popular tourist destination known for its historical significance, breathtaking vistas, and unique climbing experience.",
+      "duration": 7,
+      "durationString": "7 days",
+      "waitTime": 7,
+      "price": 110000,
+      "per": "person",
+      "currency": "NGN",
+      "symbol": "₦",
+      "rating": 3.9,
+      "reviews": [
+        {"user": "Voyager2345", "rating": 2.7, "comment": "Poor service and poorly managed trip."},
+        {"user": "Globetrotter3456", "rating": 2.2, "comment": "Mediocre experience, could be better."},
+        {"user": "Wanderlust4567", "rating": 1.9, "comment": "Very disappointing trip, not worth it."},
+        {"user": "Backpacker5678", "rating": 2.4, "comment": "Had some fun, but overall not great."},
+        {"user": "Nomad6789", "rating": 2.1, "comment": "Very average experience, not worth the price."},
+        {"user": "Jetsetter7890", "rating": 1.5, "comment": "Worst vacation ever, not recommended."},
+        {"user": "Traveler8901", "rating": 2.8, "comment": "Some good moments, but overall underwhelming."},
+        {"user": "Explorer9012", "rating": 2.3, "comment": "Poor organization and lack of communication."},
+        {"user": "Adventurer0123", "rating": 2.6, "comment": "Expected more, very mediocre experience."},
+        {"user": "Voyager1234", "rating": 1.9, "comment": "Total waste of money, very disappointing."},
+        {"user": "Globetrotter2345", "rating": 2.4, "comment": "Had some fun, but overall not great."},
+        {"user": "Wanderlust3456", "rating": 2.7, "comment": "Very average experience, not worth the price."},
+        {"user": "Backpacker4567", "rating": 2.2, "comment": "Poor service and poorly managed trip."},
+        {"user": "Nomad5678", "rating": 2.5, "comment": "Some good moments, but overall underwhelming."},
+        {"user": "Jetsetter6789", "rating": 1.8, "comment": "Very disappointing trip, not worth it."},
+        {"user": "Traveler7890", "rating": 2.1, "comment": "Expected more, very underwhelming."},
+        {"user": "Explorer8901", "rating": 2.6, "comment": "Mediocre experience, could be better"},
+        {"user": "Nomad6789", "rating": 5, "comment": "Best vacation ever! Will book again."},
+        {"user": "Jetsetter7890", "rating": 4.5, "comment": "Very enjoyable tour with friendly staff."},
+        {"user": "Traveler8901", "rating": 4.8, "comment": "Wonderful experience, highly recommend."},
+        {"user": "Explorer9012", "rating": 4.3, "comment": "Good tour, but some activities were rushed."},
+        {"user": "Adventurer0123", "rating": 5, "comment": "Incredible adventure, highly recommend."},
+        {"user": "Voyager1234", "rating": 4.6, "comment": "Well planned and executed tour."},
+        {"user": "Globetrotter2345", "rating": 4.2, "comment": "Enjoyable trip, but too many people."},
+        {"user": "Wanderlust3456", "rating": 4.9, "comment": "Fantastic tour, worth every penny."},
+        {"user": "Backpacker4567", "rating": 5, "comment": "Amazing trip, perfect vacation."},
+        {"user": "Nomad5678", "rating": 4.7, "comment": "Great tour with knowledgeable guides."},
+        {"user": "Jetsetter6789", "rating": 4.4, "comment": "Good tour, but some parts felt rushed."},
+        {"user": "Traveler7890", "rating": 5, "comment": "Loved every minute of this tour."},
+        {"user": "Explorer8901", "rating": 4.5, "comment": "Very enjoyable tour with excellent guides."},
+        {"user": "Adventurer9012", "rating": 4.8, "comment": "Wonderful trip, highly recommend."},
+        {"user": "Voyager0123", "rating": 4.1, "comment": "Good experience, but some improvements needed."}
+      ],
+      "highlights": [
+        "Rock Climbing and Scenic Views",
+        "Historical Site Tours",
+        "Cultural and Traditional Experiences"
+      ],
+      "inclusions": {
+        "meals": "All meals included",
+        "accommodations": "Luxury lodges",
+        "transportation": "All transfers and flights included"
+      },
+      "exclusions": [
+        "Personal expenses",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "description": "Arrival and transfer to accommodation in Abeokuta."
+        },
+        {
+          "day": 2,
+          "description": "Guided tour of Olumo Rock with rock climbing and scenic views."
+        },
+        {
+          "day": 3,
+          "description": "Visit to local historical and cultural sites in Abeokuta."
+        },
+        {
+          "day": 4,
+          "description": "Explore traditional markets and enjoy local cuisine."
+        },
+        {
+          "day": 5,
+          "description": "Relax and enjoy leisure activities or additional tours."
+        },
+        {
+          "day": 6,
+          "description": "Day trip to nearby attractions or cultural experiences."
+        },
+        {
+          "day": 7,
+          "description": "Departure from Abeokuta."
+        }
+      ],
+      "groupSize": {
+        "min": 2,
+        "max": 12
+      },
+      "images": [
+        "https://i.ibb.co/cD0w41y/nigeria-zuma-rock.jpg"
+      ],
+      "contactInfo": {
+        "phone": "+2347089699162",
+        "email": "info@trafrica.com"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Lekki Conservation Centre",
+      "location": "Nigeria",
+      "description": "Lekki Conservation Centre, located in Lagos, Nigeria, is a vibrant nature reserve dedicated to preserving local flora and fauna. The center features an impressive canopy walkway, wildlife sightings, and lush greenery, offering an immersive experience in Nigeria's diverse ecosystems.",
+      "duration": 7,
+      "durationString": "7 days",
+      "waitTime": 7,
+      "price": 120000,
+      "per": "person",
+      "currency": "NGN",
+      "symbol": "₦",
+      "rating": 3.0,
+      "reviews": [
+          {"user": "Adventurer2345", "rating": 2.7, "comment": "Very average experience, not worth the price."},
+          {"user": "Voyager3456", "rating": 1.9, "comment": "Very disappointing trip, not recommended."},
+          {"user": "Globetrotter4567", "rating": 2.2, "comment": "Expected more, very underwhelming."},
+          {"user": "Wanderlust5678", "rating": 1.7, "comment": "Terrible experience, very disappointing."},
+          {"user": "Backpacker6789", "rating": 2.5, "comment": "Mediocre trip, not worth it."},
+          {"user": "Nomad7890", "rating": 2.3, "comment": "Poor organization and lack of professionalism."},
+          {"user": "Jetsetter8901", "rating": 2.6, "comment": "Had some fun, but overall disappointing."},
+          {"user": "Traveler9012", "rating": 1.8, "comment": "Not worth the price, very disappointing."},
+          {"user": "Explorer0123", "rating": 2.5, "comment": "Some good parts, but overall not great."},
+          {"user": "Adventurer1234", "rating": 2.1, "comment": "Expected more, very underwhelming."},
+          {"user": "Voyager2345", "rating": 2.7, "comment": "Poor service and poorly managed trip."},
+          {"user": "Globetrotter3456", "rating": 2.2, "comment": "Mediocre experience, could be better."},
+          {"user": "Wanderlust4567", "rating": 1.9, "comment": "Very disappointing trip, not worth it."},
+          {"user": "Backpacker5678", "rating": 2.4, "comment": "Had some fun, but overall not great."},
+          {"user": "Nomad6789", "rating": 2.1, "comment": "Very average experience, not worth the price."},
+          {"user": "Jetsetter7890", "rating": 1.5, "comment": "Worst vacation ever, not recommended."},
+          {"user": "Traveler8901", "rating": 2.8, "comment": "Some good moments, but overall underwhelming."},
+          {"user": "Explorer9012", "rating": 2.3, "comment": "Poor organization and lack of communication."},
+          {"user": "Adventurer0123", "rating": 2.6, "comment": "Expected more, very mediocre experience."},
+          {"user": "Voyager1234", "rating": 1.9, "comment": "Total waste of money, very disappointing."},
+          {"user": "Globetrotter2345", "rating": 2.4, "comment": "Had some fun, but overall not great."},
+          {"user": "Wanderlust3456", "rating": 2.7, "comment": "Very average experience, not worth the price."},
+          {"user": "Backpacker4567", "rating": 2.2, "comment": "Poor service and poorly managed trip."},
+          {"user": "Nomad5678", "rating": 2.5, "comment": "Some good moments, but overall underwhelming."},
+          {"user": "Jetsetter6789", "rating": 1.8, "comment": "Very disappointing trip, not worth it."},
+          {"user": "Traveler7890", "rating": 2.1, "comment": "Expected more, very underwhelming."},
+          {"user": "Explorer8901", "rating": 2.6, "comment": "Mediocre experience, could be better"},
+          {"user": "Nomad6789", "rating": 5, "comment": "Best vacation ever! Will book again."},
+          {"user": "Jetsetter7890", "rating": 4.5, "comment": "Very enjoyable tour with friendly staff."},
+          {"user": "Traveler8901", "rating": 4.8, "comment": "Wonderful experience, highly recommend."},
+          {"user": "Explorer9012", "rating": 4.3, "comment": "Good tour, but some activities were rushed."},
+          {"user": "Adventurer0123", "rating": 5, "comment": "Incredible adventure, highly recommend."},
+          {"user": "Voyager1234", "rating": 4.6, "comment": "Well planned and executed tour."},
+          {"user": "Globetrotter2345", "rating": 4.2, "comment": "Enjoyable trip, but too many people."},
+          {"user": "Wanderlust3456", "rating": 4.9, "comment": "Fantastic tour, worth every penny."},
+          {"user": "Backpacker4567", "rating": 5, "comment": "Amazing trip, perfect vacation."},
+          {"user": "Nomad5678", "rating": 4.7, "comment": "Great tour with knowledgeable guides."},
+          {"user": "Jetsetter6789", "rating": 4.4, "comment": "Good tour, but some parts felt rushed."},
+          {"user": "Traveler7890", "rating": 5, "comment": "Loved every minute of this tour."},
+          {"user": "Explorer8901", "rating": 4.5, "comment": "Very enjoyable tour with excellent guides."},
+          {"user": "Adventurer9012", "rating": 4.8, "comment": "Wonderful trip, highly recommend."},
+          {"user": "Voyager0123", "rating": 4.1, "comment": "Good experience, but some improvements needed."}
+      ],
+      "highlights": [
+        "Canopy Walkway Adventure",
+        "Wildlife Spotting",
+        "Nature Trails and Scenic Views"
+      ],
+      "inclusions": {
+        "meals": "All meals included",
+        "accommodations": "Luxury lodges",
+        "transportation": "All transfers and flights included"
+      },
+      "exclusions": [
+        "Personal expenses",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "description": "Arrival and transfer to accommodation in Lagos."
+        },
+        {
+          "day": 2,
+          "description": "Visit to Lekki Conservation Centre with canopy walkway experience."
+        },
+        {
+          "day": 3,
+          "description": "Guided tour of the center's wildlife and nature trails."
+        },
+        {
+          "day": 4,
+          "description": "Explore local attractions in Lagos and cultural sites."
+        },
+        {
+          "day": 5,
+          "description": "Relax and enjoy leisure activities or additional tours."
+        },
+        {
+          "day": 6,
+          "description": "Day trip to nearby attractions or beaches."
+        },
+        {
+          "day": 7,
+          "description": "Departure from Lagos."
+        }
+      ],
+      "groupSize": {
+        "min": 2,
+        "max": 12
+      },
+      "images": [
+        "https://i.ibb.co/Vqc0HSs/lagos-nigeria.jpg"
+      ],
+      "contactInfo": {
+        "phone": "+2347089699162",
+        "email": "info@trafrica.com"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Obudu Mountain Resort Expedition",
+      "location": "Nigeria",
+      "description": "Obudu Mountain Resort, located in Cross River State, Nigeria, is a premier highland retreat known for its stunning landscapes and cool climate. Nestled in the lush mountains, the resort offers breathtaking views, a cable car ride, and various outdoor activities, making it a perfect destination for relaxation and adventure.",
+      "duration": 7,
+      "durationString": "7 days",
+      "waitTime": 7,
+      "price": 180000,
+      "per": "person",
+      "currency": "NGN",
+      "symbol": "₦",
+      "rating": 4.1,
+      "reviews": [
+          {"user": "Adventurer303", "rating": 5, "comment": "Best vacation ever! Will book again."},
+          {"user": "Voyager404", "rating": 4.6, "comment": "Well planned and executed tour."},
+          {"user": "Globetrotter505", "rating": 4.1, "comment": "Good experience, but some activities were rushed."},
+          {"user": "Wanderlust606", "rating": 5, "comment": "Exceeded my expectations, fantastic trip!"},
+          {"user": "Backpacker707", "rating": 4.5, "comment": "Great tour with knowledgeable guides."},
+          {"user": "Nomad808", "rating": 4.8, "comment": "Amazing sights and comfortable accommodations."},
+          {"user": "Jetsetter909", "rating": 4.3, "comment": "Enjoyable trip, but the itinerary was tight."},
+          {"user": "Traveler111", "rating": 5, "comment": "Perfectly organized and very enjoyable."},
+          {"user": "Explorer222", "rating": 4.7, "comment": "Fantastic experience, highly recommend!"},
+          {"user": "Adventurer333", "rating": 4.4, "comment": "Great tour, but some parts felt rushed."},
+          {"user": "Voyager444", "rating": 5, "comment": "Loved every part of this tour."},
+          {"user": "Globetrotter555", "rating": 4.6, "comment": "Excellent tour with great guides."},
+          {"user": "Wanderlust666", "rating": 4.9, "comment": "Amazing trip, worth every penny."},
+          {"user": "Backpacker777", "rating": 4.2, "comment": "Good experience, but could use better coordination."},
+          {"user": "Nomad888", "rating": 5, "comment": "Best trip ever! Will definitely recommend."},
+          {"user": "Jetsetter999", "rating": 4.5, "comment": "Very enjoyable tour with friendly staff."},
+          {"user": "Traveler123", "rating": 4.8, "comment": "Wonderful experience, highly recommend."},
+          {"user": "Explorer234", "rating": 4.1, "comment": "Good tour, but some improvements needed."},
+          {"user": "Adventurer345", "rating": 5, "comment": "Incredible adventure, will book again."},
+          {"user": "Voyager456", "rating": 4.7, "comment": "Great tour, well worth the money."},
+          {"user": "Globetrotter567", "rating": 4.3, "comment": "Enjoyable trip, but too many people."},
+          {"user": "Wanderlust678", "rating": 5, "comment": "Fantastic tour, highly recommend!"},
+          {"user": "Backpacker789", "rating": 4.6, "comment": "Well-organized and fun experience."},
+          {"user": "Nomad890", "rating": 4.2, "comment": "Good trip, but some activities were rushed."},
+          {"user": "Jetsetter901", "rating": 4.9, "comment": "Amazing experience, perfect vacation."},
+          {"user": "Traveler012", "rating": 5, "comment": "Loved every minute, great service."},
+          {"user": "Explorer1234", "rating": 4.5, "comment": "Very enjoyable tour with excellent guides."},
+          {"user": "Adventurer2345", "rating": 4.8, "comment": "Wonderful trip, highly recommend."},
+          {"user": "Voyager3456", "rating": 4.1, "comment": "Good experience, but some parts were rushed."},
+          {"user": "Globetrotter4567", "rating": 5, "comment": "Unforgettable adventure, will book again."},
+          {"user": "Wanderlust5678", "rating": 4.7, "comment": "Great value for the money, highly enjoyable."},
+          {"user": "Backpacker6789", "rating": 4.3, "comment": "Amazing tour, but food could be better."},
+          {"user": "Nomad7890", "rating": 5, "comment": "Best trip ever! Highly recommend."},
+          {"user": "Jetsetter8901", "rating": 4.6, "comment": "Fantastic experience, well-organized."},
+          {"user": "Traveler9012", "rating": 4.2, "comment": "Good tour, but some improvements needed."},
+          {"user": "Explorer0123", "rating": 4.9, "comment": "Incredible experience, perfect vacation."},
+          {"user": "Adventurer1234", "rating": 5, "comment": "Amazing tour, exceeded expectations."},
+          {"user": "Voyager2345", "rating": 4.4, "comment": "Enjoyable trip, but a bit crowded."},
+          {"user": "Globetrotter3456", "rating": 5, "comment": "Wonderful adventure, highly recommend."},
+          {"user": "Wanderlust4567", "rating": 4.7, "comment": "Great trip, well worth the money."},
+          {"user": "Backpacker5678", "rating": 4.1, "comment": "Good experience, but could use better coordination."},
+          {"user": "Nomad6789", "rating": 5, "comment": "Best vacation ever! Will book again."},
+          {"user": "Jetsetter7890", "rating": 4.5, "comment": "Very enjoyable tour with friendly staff."},
+          {"user": "Traveler8901", "rating": 4.8, "comment": "Wonderful experience, highly recommend."},
+          {"user": "Explorer9012", "rating": 4.3, "comment": "Good tour, but some activities were rushed."},
+          {"user": "Adventurer0123", "rating": 5, "comment": "Incredible adventure, highly recommend."},
+          {"user": "Voyager1234", "rating": 4.6, "comment": "Well planned and executed tour."},
+          {"user": "Globetrotter2345", "rating": 4.2, "comment": "Enjoyable trip, but too many people."},
+          {"user": "Wanderlust3456", "rating": 4.9, "comment": "Fantastic tour, worth every penny."},
+          {"user": "Globetrotter505", "rating": 1.1, "comment": "Total waste of money and time."},
+          {"user": "Wanderlust606", "rating": 2, "comment": "Disappointing trip, not as advertised."},
+          {"user": "Backpacker707", "rating": 2.5, "comment": "Some parts were good, but overall disappointing."},
+          {"user": "Nomad808", "rating": 2.8, "comment": "Mediocre experience, expected better."},
+          {"user": "Jetsetter909", "rating": 2.3, "comment": "Poor organization and lack of communication."},
+          {"user": "Traveler111", "rating": 1.5, "comment": "Not worth the price, very disappointing."},
+          {"user": "Explorer222", "rating": 2.7, "comment": "Had some fun moments, but overall underwhelming."},
+          {"user": "Adventurer333", "rating": 2.4, "comment": "Guides were unprofessional, not worth it."},
+          {"user": "Voyager444", "rating": 1.8, "comment": "Very disappointed with the whole experience."},
+          {"user": "Globetrotter555", "rating": 2.6, "comment": "Expected more for the price."},
+          {"user": "Wanderlust666", "rating": 2.9, "comment": "Some good parts, but overall not great."},
+          {"user": "Backpacker777", "rating": 1.2, "comment": "Terrible experience, not recommended."},
+          {"user": "Nomad888", "rating": 2.5, "comment": "Very average experience, nothing special."},
+          {"user": "Jetsetter999", "rating": 2.4, "comment": "Not what I expected, very disappointed."},
+          {"user": "Traveler123", "rating": 1.8, "comment": "Poor service and poorly managed trip."},
+          {"user": "Explorer234", "rating": 2.1, "comment": "Had some fun, but overall disappointing."},
+          {"user": "Adventurer345", "rating": 2.7, "comment": "Mediocre experience, not worth it."},
+          {"user": "Voyager456", "rating": 2.3, "comment": "Poor organization and lack of professionalism."},
+          {"user": "Globetrotter567", "rating": 1.4, "comment": "Total waste of money, very disappointing."},
+          {"user": "Wanderlust678", "rating": 2.5, "comment": "Some good moments, but overall underwhelming."}
+      ],
+      "highlights": [
+        "Cable Car Ride",
+        "Mountain Scenery and Hiking Trails",
+        "Relaxation and Spa Services"
+      ],
+      "inclusions": {
+        "meals": "All meals included",
+        "accommodations": "Luxury lodges",
+        "transportation": "All transfers and flights included"
+      },
+      "exclusions": [
+        "Personal expenses",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "description": "Arrival and transfer to Obudu Mountain Resort."
+        },
+        {
+          "day": 2,
+          "description": "Cable car ride and exploration of the resort's scenic views."
+        },
+        {
+          "day": 3,
+          "description": "Guided hike through the surrounding mountain trails."
+        },
+        {
+          "day": 4,
+          "description": "Relaxation at the resort’s spa and leisure activities."
+        },
+        {
+          "day": 5,
+          "description": "Explore local attractions and cultural sites in Cross River State."
+        },
+        {
+          "day": 6,
+          "description": "Enjoy additional recreational activities or leisure time."
+        },
+        {
+          "day": 7,
+          "description": "Departure from Obudu Mountain Resort."
+        }
+      ],
+      "groupSize": {
+        "min": 2,
+        "max": 12
+      },
+      "images": [
+        "https://i.ibb.co/Wt1bCpb/natural-africa-waterfall-2.jpg",
+        "https://i.ibb.co/CsCjJYr/natural-africa-cable-car.jpg",
+        "https://i.ibb.co/NNQwNX8/natural-africa-wilderness-pass.jpg"
+      ],
+      "contactInfo": {
+        "phone": "+2347089699162",
+        "email": "info@trafrica.com"
+      }
+    },
+    {
+      "id": 10,
+      "title": "Nike Art Gallery Tour",
+      "location": "Nigeria",
+      "description": "Nike Art Gallery, located in Lagos, Nigeria, is a premier art destination showcasing an extensive collection of traditional and contemporary African art. The gallery offers a vibrant cultural experience with diverse artworks, including sculptures, paintings, and textiles, reflecting Nigeria's rich artistic heritage.",
+      "duration": 7,
+      "durationString": "7 days",
+      "waitTime": 7,
+      "price": 100000,
+      "per": "person",
+      "currency": "NGN",
+      "symbol": "₦",
+      "rating": 3.7,
+      "reviews": [
+        {"user": "Explorer234", "rating": 2.1, "comment": "Had some fun, but overall disappointing."},
+        {"user": "Adventurer345", "rating": 2.7, "comment": "Mediocre experience, not worth it."},
+        {"user": "Voyager456", "rating": 2.3, "comment": "Poor organization and lack of professionalism."},
+        {"user": "Globetrotter567", "rating": 1.4, "comment": "Total waste of money, very disappointing."},
+        {"user": "Wanderlust678", "rating": 2.5, "comment": "Some good moments, but overall underwhelming."},
+        {"user": "Backpacker789", "rating": 2.6, "comment": "Expected more, very mediocre experience."},
+        {"user": "Nomad890", "rating": 1.3, "comment": "Worst vacation ever, not worth it."},
+        {"user": "Jetsetter901", "rating": 2.8, "comment": "Mediocre experience, could be better."},
+        {"user": "Traveler012", "rating": 2.1, "comment": "Had some fun, but overall not great."},
+        {"user": "Explorer1234", "rating": 2.4, "comment": "Poor service and lack of communication."},
+        {"user": "Adventurer2345", "rating": 2.7, "comment": "Very average experience, not worth the price."},
+        {"user": "Voyager3456", "rating": 1.9, "comment": "Very disappointing trip, not recommended."},
+        {"user": "Globetrotter4567", "rating": 2.2, "comment": "Expected more, very underwhelming."},
+        {"user": "Wanderlust5678", "rating": 1.7, "comment": "Terrible experience, very disappointing."},
+        {"user": "Backpacker6789", "rating": 2.5, "comment": "Mediocre trip, not worth it."},
+        {"user": "Nomad7890", "rating": 2.3, "comment": "Poor organization and lack of professionalism."},
+        {"user": "Jetsetter8901", "rating": 2.6, "comment": "Had some fun, but overall disappointing."},
+        {"user": "Traveler9012", "rating": 1.8, "comment": "Not worth the price, very disappointing."},
+        {"user": "Explorer0123", "rating": 2.5, "comment": "Some good parts, but overall not great."},
+        {"user": "Adventurer1234", "rating": 2.1, "comment": "Expected more, very underwhelming."},
+        {"user": "Voyager2345", "rating": 2.7, "comment": "Poor service and poorly managed trip."},
+        {"user": "Globetrotter3456", "rating": 2.2, "comment": "Mediocre experience, could be better."},
+        {"user": "Wanderlust4567", "rating": 1.9, "comment": "Very disappointing trip, not worth it."},
+        {"user": "Backpacker5678", "rating": 2.4, "comment": "Had some fun, but overall not great."},
+        {"user": "Nomad6789", "rating": 2.1, "comment": "Very average experience, not worth the price."},
+        {"user": "Jetsetter7890", "rating": 1.5, "comment": "Worst vacation ever, not recommended."},
+        {"user": "Traveler8901", "rating": 2.8, "comment": "Some good moments, but overall underwhelming."},
+        {"user": "Explorer9012", "rating": 2.3, "comment": "Poor organization and lack of communication."},
+        {"user": "Adventurer0123", "rating": 2.6, "comment": "Expected more, very mediocre experience."},
+        {"user": "Voyager1234", "rating": 1.9, "comment": "Total waste of money, very disappointing."},
+        {"user": "Globetrotter2345", "rating": 2.4, "comment": "Had some fun, but overall not great."},
+        {"user": "Wanderlust3456", "rating": 2.7, "comment": "Very average experience, not worth the price."},
+        {"user": "Backpacker4567", "rating": 2.2, "comment": "Poor service and poorly managed trip."},
+        {"user": "Nomad5678", "rating": 2.5, "comment": "Some good moments, but overall underwhelming."},
+        {"user": "Jetsetter6789", "rating": 1.8, "comment": "Very disappointing trip, not worth it."},
+        {"user": "Traveler7890", "rating": 2.1, "comment": "Expected more, very underwhelming."},
+        {"user": "Explorer8901", "rating": 2.6, "comment": "Mediocre experience, could be better"},
+        {"user": "Explorer0123", "rating": 4.9, "comment": "Incredible experience, perfect vacation."},
+        {"user": "Adventurer1234", "rating": 5, "comment": "Amazing tour, exceeded expectations."},
+        {"user": "Voyager2345", "rating": 4.4, "comment": "Enjoyable trip, but a bit crowded."},
+        {"user": "Globetrotter3456", "rating": 5, "comment": "Wonderful adventure, highly recommend."},
+        {"user": "Wanderlust4567", "rating": 4.7, "comment": "Great trip, well worth the money."},
+        {"user": "Backpacker5678", "rating": 4.1, "comment": "Good experience, but could use better coordination."},
+        {"user": "Nomad6789", "rating": 5, "comment": "Best vacation ever! Will book again."},
+        {"user": "Jetsetter7890", "rating": 4.5, "comment": "Very enjoyable tour with friendly staff."},
+        {"user": "Traveler8901", "rating": 4.8, "comment": "Wonderful experience, highly recommend."},
+        {"user": "Explorer9012", "rating": 4.3, "comment": "Good tour, but some activities were rushed."},
+        {"user": "Adventurer0123", "rating": 5, "comment": "Incredible adventure, highly recommend."},
+        {"user": "Voyager1234", "rating": 4.6, "comment": "Well planned and executed tour."},
+        {"user": "Globetrotter2345", "rating": 4.2, "comment": "Enjoyable trip, but too many people."},
+        {"user": "Wanderlust3456", "rating": 4.9, "comment": "Fantastic tour, worth every penny."},
+        {"user": "Backpacker4567", "rating": 5, "comment": "Amazing trip, perfect vacation."},
+        {"user": "Nomad5678", "rating": 4.7, "comment": "Great tour with knowledgeable guides."},
+        {"user": "Jetsetter6789", "rating": 4.4, "comment": "Good tour, but some parts felt rushed."},
+        {"user": "Traveler7890", "rating": 5, "comment": "Loved every minute of this tour."},
+        {"user": "Explorer8901", "rating": 4.5, "comment": "Very enjoyable tour with excellent guides."},
+        {"user": "Adventurer9012", "rating": 4.8, "comment": "Wonderful trip, highly recommend."},
+        {"user": "Voyager0123", "rating": 4.1, "comment": "Good experience, but some improvements needed."}
+      ],
+      "highlights": [
+        "Art Exhibitions and Displays",
+        "Cultural Workshops and Demonstrations",
+        "Local Art and Craft Shopping"
+      ],
+      "inclusions": {
+        "meals": "All meals included",
+        "accommodations": "Luxury lodges",
+        "transportation": "All transfers and flights included"
+      },
+      "exclusions": [
+        "Personal expenses",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "description": "Arrival and transfer to accommodation in Lagos."
+        },
+        {
+          "day": 2,
+          "description": "Visit Nike Art Gallery for guided tours and art exhibitions."
+        },
+        {
+          "day": 3,
+          "description": "Participate in cultural workshops and art demonstrations."
+        },
+        {
+          "day": 4,
+          "description": "Explore local markets and purchase unique art pieces."
+        },
+        {
+          "day": 5,
+          "description": "Relax and enjoy leisure activities in Lagos."
+        },
+        {
+          "day": 6,
+          "description": "Day trip to nearby attractions or cultural sites."
+        },
+        {
+          "day": 7,
+          "description": "Departure from Lagos."
+        }
+      ],
+      "groupSize": {
+        "min": 2,
+        "max": 12
+      },
+      "images": [
+        "https://i.ibb.co/zRxMFsx/natural-africa-art-gallery.jpg",
+        "https://i.ibb.co/Vqc0HSs/lagos-nigeria.jpg"
+      ],
+      "contactInfo": {
+        "phone": "+2347089699162",
+        "email": "info@trafrica.com"
+      }
+    },
+    {
+      "id": 11,
+      "title": "Table Mountain Safari",
+      "location": "South Africa",
+      "description": "Table Mountain, an iconic landmark in Cape Town, South Africa, offers breathtaking panoramic views of the city and coastline. Enjoy a cable car ride to the summit, explore scenic walking trails, and experience one of the world's most stunning natural vistas.",
+      "duration": 7,
+      "durationString": "7 days",
+      "waitTime": 7,
+      "price": 180000,
+      "per": "person",
+      "currency": "NGN",
+      "symbol": "₦",
+      "rating": 4.5,
+      "reviews": [
+        {"user": "Backpacker5678", "rating": 2.4, "comment": "Had some fun, but overall not great."},
+        {"user": "Nomad6789", "rating": 2.1, "comment": "Very average experience, not worth the price."},
+        {"user": "Jetsetter7890", "rating": 1.5, "comment": "Worst vacation ever, not recommended."},
+        {"user": "Traveler8901", "rating": 2.8, "comment": "Some good moments, but overall underwhelming."},
+        {"user": "Explorer9012", "rating": 2.3, "comment": "Poor organization and lack of communication."},
+        {"user": "Adventurer0123", "rating": 2.6, "comment": "Expected more, very mediocre experience."},
+        {"user": "Voyager1234", "rating": 1.9, "comment": "Total waste of money, very disappointing."},
+        {"user": "Globetrotter2345", "rating": 2.4, "comment": "Had some fun, but overall not great."},
+        {"user": "Wanderlust3456", "rating": 2.7, "comment": "Very average experience, not worth the price."},
+        {"user": "Backpacker4567", "rating": 2.2, "comment": "Poor service and poorly managed trip."},
+        {"user": "Nomad5678", "rating": 2.5, "comment": "Some good moments, but overall underwhelming."},
+        {"user": "Jetsetter6789", "rating": 1.8, "comment": "Very disappointing trip, not worth it."},
+        {"user": "Traveler7890", "rating": 2.1, "comment": "Expected more, very underwhelming."},
+        {"user": "Explorer8901", "rating": 2.6, "comment": "Mediocre experience, could be better"},
+        {"user": "Traveler123", "rating": 4.8, "comment": "Wonderful experience, highly recommend."},
+        {"user": "Explorer234", "rating": 4.1, "comment": "Good tour, but some improvements needed."},
+        {"user": "Adventurer345", "rating": 5, "comment": "Incredible adventure, will book again."},
+        {"user": "Voyager456", "rating": 4.7, "comment": "Great tour, well worth the money."},
+        {"user": "Globetrotter567", "rating": 4.3, "comment": "Enjoyable trip, but too many people."},
+        {"user": "Wanderlust678", "rating": 5, "comment": "Fantastic tour, highly recommend!"},
+        {"user": "Backpacker789", "rating": 4.6, "comment": "Well-organized and fun experience."},
+        {"user": "Nomad890", "rating": 4.2, "comment": "Good trip, but some activities were rushed."},
+        {"user": "Jetsetter901", "rating": 4.9, "comment": "Amazing experience, perfect vacation."},
+        {"user": "Traveler012", "rating": 5, "comment": "Loved every minute, great service."},
+        {"user": "Explorer1234", "rating": 4.5, "comment": "Very enjoyable tour with excellent guides."},
+        {"user": "Adventurer2345", "rating": 4.8, "comment": "Wonderful trip, highly recommend."},
+        {"user": "Voyager3456", "rating": 4.1, "comment": "Good experience, but some parts were rushed."},
+        {"user": "Globetrotter4567", "rating": 5, "comment": "Unforgettable adventure, will book again."},
+        {"user": "Wanderlust5678", "rating": 4.7, "comment": "Great value for the money, highly enjoyable."},
+        {"user": "Backpacker6789", "rating": 4.3, "comment": "Amazing tour, but food could be better."},
+        {"user": "Nomad7890", "rating": 5, "comment": "Best trip ever! Highly recommend."},
+        {"user": "Jetsetter8901", "rating": 4.6, "comment": "Fantastic experience, well-organized."},
+        {"user": "Traveler9012", "rating": 4.2, "comment": "Good tour, but some improvements needed."},
+        {"user": "Explorer0123", "rating": 4.9, "comment": "Incredible experience, perfect vacation."},
+        {"user": "Adventurer1234", "rating": 5, "comment": "Amazing tour, exceeded expectations."},
+        {"user": "Voyager2345", "rating": 4.4, "comment": "Enjoyable trip, but a bit crowded."},
+        {"user": "Globetrotter3456", "rating": 5, "comment": "Wonderful adventure, highly recommend."},
+        {"user": "Wanderlust4567", "rating": 4.7, "comment": "Great trip, well worth the money."},
+        {"user": "Backpacker5678", "rating": 4.1, "comment": "Good experience, but could use better coordination."},
+        {"user": "Nomad6789", "rating": 5, "comment": "Best vacation ever! Will book again."},
+        {"user": "Jetsetter7890", "rating": 4.5, "comment": "Very enjoyable tour with friendly staff."},
+        {"user": "Traveler8901", "rating": 4.8, "comment": "Wonderful experience, highly recommend."},
+        {"user": "Explorer9012", "rating": 4.3, "comment": "Good tour, but some activities were rushed."},
+        {"user": "Adventurer0123", "rating": 5, "comment": "Incredible adventure, highly recommend."},
+        {"user": "Voyager1234", "rating": 4.6, "comment": "Well planned and executed tour."},
+        {"user": "Globetrotter2345", "rating": 4.2, "comment": "Enjoyable trip, but too many people."},
+        {"user": "Wanderlust3456", "rating": 4.9, "comment": "Fantastic tour, worth every penny."},
+        {"user": "Backpacker4567", "rating": 5, "comment": "Amazing trip, perfect vacation."},
+        {"user": "Nomad5678", "rating": 4.7, "comment": "Great tour with knowledgeable guides."},
+        {"user": "Jetsetter6789", "rating": 4.4, "comment": "Good tour, but some parts felt rushed."},
+        {"user": "Traveler7890", "rating": 5, "comment": "Loved every minute of this tour."},
+        {"user": "Explorer8901", "rating": 4.5, "comment": "Very enjoyable tour with excellent guides."},
+        {"user": "Adventurer9012", "rating": 4.8, "comment": "Wonderful trip, highly recommend."},
+        {"user": "Voyager0123", "rating": 4.1, "comment": "Good experience, but some improvements needed."}
+      ],
+      "highlights": [
+        "Cable Car Ride",
+        "Panoramic City Views",
+        "Scenic Hiking Trails"
+      ],
+      "inclusions": {
+        "meals": "Daily breakfast and selected meals",
+        "accommodations": "Comfortable hotels",
+        "transportation": "All transfers and local transportation included"
+      },
+      "exclusions": [
+        "Personal expenses",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "description": "Arrival in Cape Town and transfer to hotel."
+        },
+        {
+          "day": 2,
+          "description": "Guided tour of Table Mountain with cable car ride."
+        },
+        {
+          "day": 3,
+          "description": "Explore scenic walking trails and enjoy panoramic views."
+        },
+        {
+          "day": 4,
+          "description": "Visit to Cape Town's waterfront and local attractions."
+        },
+        {
+          "day": 5,
+          "description": "Day trip to Cape Peninsula and Cape of Good Hope."
+        },
+        {
+          "day": 6,
+          "description": "Relax and enjoy leisure activities or additional tours."
+        },
+        {
+          "day": 7,
+          "description": "Departure from Cape Town."
+        }
+      ],
+      "groupSize": {
+        "min": 2,
+        "max": 15
+      },
+      "images": [
+        "https://i.ibb.co/0tMDp74/cape-town-SA.jpg",
+        "https://i.ibb.co/T4cT2ZV/natural-africa-cliff-city-view.jpg"
+      ],
+      "contactInfo": {
+        "phone": "+2347089699162",
+        "email": "info@trafrica.com"
+      }
+    },
+    {
+      "id": 12,
+      "title": "Kruger National Park",
+      "location": "South Africa",
+      "description": "Kruger National Park is one of Africa's largest game reserves, renowned for its rich wildlife and diverse landscapes. Experience thrilling safari drives, encounter the Big Five, and enjoy guided bush walks in this iconic South African park.",
+      "duration": 7,
+      "durationString": "7 days",
+      "waitTime": 7,
+      "price": 200000,
+      "per": "person",
+      "currency": "NGN",
+      "symbol": "₦",
+      "rating": 4.7,
+      "reviews": [
+        {"user": "Adventurer0123", "rating": 2.6, "comment": "Expected more, very mediocre experience."},
+        {"user": "Voyager1234", "rating": 1.9, "comment": "Total waste of money, very disappointing."},
+        {"user": "Globetrotter2345", "rating": 2.4, "comment": "Had some fun, but overall not great."},
+        {"user": "Wanderlust3456", "rating": 2.7, "comment": "Very average experience, not worth the price."},
+        {"user": "Backpacker4567", "rating": 2.2, "comment": "Poor service and poorly managed trip."},
+        {"user": "Nomad5678", "rating": 2.5, "comment": "Some good moments, but overall underwhelming."},
+        {"user": "Jetsetter6789", "rating": 1.8, "comment": "Very disappointing trip, not worth it."},
+        {"user": "Traveler7890", "rating": 2.1, "comment": "Expected more, very underwhelming."},
+        {"user": "Explorer8901", "rating": 2.6, "comment": "Mediocre experience, could be better"},
+        {"user": "Traveler8901", "rating": 4.8, "comment": "Wonderful experience, highly recommend."},
+        {"user": "Explorer9012", "rating": 4.3, "comment": "Good tour, but some activities were rushed."},
+        {"user": "Adventurer0123", "rating": 5, "comment": "Incredible adventure, highly recommend."},
+        {"user": "Voyager1234", "rating": 4.6, "comment": "Well planned and executed tour."},
+        {"user": "Globetrotter2345", "rating": 4.2, "comment": "Enjoyable trip, but too many people."},
+        {"user": "Wanderlust3456", "rating": 4.9, "comment": "Fantastic tour, worth every penny."},
+        {"user": "Backpacker4567", "rating": 5, "comment": "Amazing trip, perfect vacation."},
+        {"user": "Nomad5678", "rating": 4.7, "comment": "Great tour with knowledgeable guides."},
+        {"user": "Jetsetter6789", "rating": 4.4, "comment": "Good tour, but some parts felt rushed."},
+        {"user": "Traveler7890", "rating": 5, "comment": "Loved every minute of this tour."},
+        {"user": "Explorer8901", "rating": 4.5, "comment": "Very enjoyable tour with excellent guides."},
+        {"user": "Adventurer9012", "rating": 4.8, "comment": "Wonderful trip, highly recommend."},
+        {"user": "Voyager0123", "rating": 4.1, "comment": "Good experience, but some improvements needed."}
+      ],
+      "highlights": [
+        "Big Five Safari Drives",
+        "Guided Bush Walks",
+        "Scenic Landscapes"
+      ],
+      "inclusions": {
+        "meals": "All meals included",
+        "accommodations": "Luxury lodges and camps",
+        "transportation": "All transfers and safari vehicles included"
+      },
+      "exclusions": [
+        "Personal expenses",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "description": "Arrival and transfer to lodge in Kruger National Park."
+        },
+        {
+          "day": 2,
+          "description": "Morning and afternoon safari drives."
+        },
+        {
+          "day": 3,
+          "description": "Guided bush walk and wildlife spotting."
+        },
+        {
+          "day": 4,
+          "description": "Full-day safari drive with picnic lunch in the park."
+        },
+        {
+          "day": 5,
+          "description": "Explore different regions of the park with guided tours."
+        },
+        {
+          "day": 6,
+          "description": "Relax at the lodge or enjoy optional activities."
+        },
+        {
+          "day": 7,
+          "description": "Departure from Kruger National Park."
+        }
+      ],
+      "groupSize": {
+        "min": 2,
+        "max": 12
+      },
+      "images": [
+        "https://i.ibb.co/zRwQG5z/natural-africa-safari-pass.jpg",
+        "https://i.ibb.co/hZ0YqLR/natural-africa-giraffe.jpg"
+      ],
+      "contactInfo": {
+        "phone": "+2347089699162",
+        "email": "info@trafrica.com"
+      }
+    },
+    {
+      "id": 13,
+      "title": "Maasai Mara Safari Adventure",
+      "location": "Kenya",
+      "description": "Maasai Mara National Reserve in Kenya is renowned for its exceptional wildlife and breathtaking landscapes. Experience thrilling safari drives, witness the Great Migration (seasonal), and immerse yourself in the rich Maasai culture in this iconic African reserve.",
+      "duration": 7,
+      "durationString": "7 days",
+      "waitTime": 7,
+      "price": 220000,
+      "per": "person",
+      "currency": "NGN",
+      "symbol": "₦",
+      "rating": 4.8,
+      "reviews": [
+        {"user": "Nomad5678", "rating": 2.5, "comment": "Some good moments, but overall underwhelming."},
+        {"user": "Jetsetter6789", "rating": 1.8, "comment": "Very disappointing trip, not worth it."},
+        {"user": "Traveler7890", "rating": 2.1, "comment": "Expected more, very underwhelming."},
+        {"user": "Explorer8901", "rating": 2.6, "comment": "Mediocre experience, could be better"},
+        {"user": "Adventurer1234", "rating": 5, "comment": "Amazing tour, exceeded expectations."},
+        {"user": "Voyager2345", "rating": 4.4, "comment": "Enjoyable trip, but a bit crowded."},
+        {"user": "Globetrotter3456", "rating": 5, "comment": "Wonderful adventure, highly recommend."},
+        {"user": "Wanderlust4567", "rating": 4.7, "comment": "Great trip, well worth the money."},
+        {"user": "Backpacker5678", "rating": 4.1, "comment": "Good experience, but could use better coordination."},
+        {"user": "Nomad6789", "rating": 5, "comment": "Best vacation ever! Will book again."},
+        {"user": "Jetsetter7890", "rating": 4.5, "comment": "Very enjoyable tour with friendly staff."},
+        {"user": "Traveler8901", "rating": 4.8, "comment": "Wonderful experience, highly recommend."},
+        {"user": "Explorer9012", "rating": 4.3, "comment": "Good tour, but some activities were rushed."},
+        {"user": "Adventurer0123", "rating": 5, "comment": "Incredible adventure, highly recommend."},
+        {"user": "Voyager1234", "rating": 4.6, "comment": "Well planned and executed tour."},
+        {"user": "Globetrotter2345", "rating": 4.2, "comment": "Enjoyable trip, but too many people."},
+        {"user": "Wanderlust3456", "rating": 4.9, "comment": "Fantastic tour, worth every penny."},
+        {"user": "Backpacker4567", "rating": 5, "comment": "Amazing trip, perfect vacation."},
+        {"user": "Nomad5678", "rating": 4.7, "comment": "Great tour with knowledgeable guides."},
+        {"user": "Jetsetter6789", "rating": 4.4, "comment": "Good tour, but some parts felt rushed."},
+        {"user": "Traveler7890", "rating": 5, "comment": "Loved every minute of this tour."},
+        {"user": "Explorer8901", "rating": 4.5, "comment": "Very enjoyable tour with excellent guides."},
+        {"user": "Adventurer9012", "rating": 4.8, "comment": "Wonderful trip, highly recommend."},
+        {"user": "Voyager0123", "rating": 4.1, "comment": "Good experience, but some improvements needed."}
+      ],
+      "highlights": [
+        "Big Five Safari Drives",
+        "Great Migration Viewing (seasonal)",
+        "Cultural Maasai Village Visits"
+      ],
+      "inclusions": {
+        "meals": "All meals included",
+        "accommodations": "Luxury tented camps",
+        "transportation": "All transfers and safari vehicles included"
+      },
+      "exclusions": [
+        "Personal expenses",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "description": "Arrival in Nairobi and transfer to Maasai Mara National Reserve."
+        },
+        {
+          "day": 2,
+          "description": "Morning and afternoon safari drives in the Maasai Mara."
+        },
+        {
+          "day": 3,
+          "description": "Full-day safari drive with a picnic lunch in the reserve."
+        },
+        {
+          "day": 4,
+          "description": "Visit to a Maasai village and cultural experience."
+        },
+        {
+          "day": 5,
+          "description": "Explore different regions of the Maasai Mara with guided tours."
+        },
+        {
+          "day": 6,
+          "description": "Relax at the camp or enjoy optional activities."
+        },
+        {
+          "day": 7,
+          "description": "Return to Nairobi and departure."
+        }
+      ],
+      "groupSize": {
+        "min": 2,
+        "max": 12
+      },
+      "images": [
+        "https://i.ibb.co/sWFLdJj/kenya-smiles.jpg",
+        "https://i.ibb.co/KzHYQLx/natural-africa-roaring-lions.jpg"
+      ],
+      "contactInfo": {
+        "phone": "+2347089699162",
+        "email": "info@trafrica.com"
+      }
+    },
+    {
+      "id": 14,
+      "title": "Mount Kenya Trekking Expedition",
+      "location": "Kenya",
+      "description": "Mount Kenya, the highest peak in Kenya, offers an exhilarating trekking experience with stunning alpine scenery and diverse ecosystems. This trek features challenging climbs, breathtaking views, and the chance to explore one of Africa’s most iconic mountains.",
+      "duration": 7,
+      "durationString": "7 days",
+      "waitTime": 7,
+      "price": 200000,
+      "per": "person",
+      "currency": "NGN",
+      "symbol": "₦",
+      "rating": 4.6,
+      "reviews": [
+        {"user": "Voyager1234", "rating": 1.9, "comment": "Total waste of money, very disappointing."},
+        {"user": "Globetrotter2345", "rating": 2.4, "comment": "Had some fun, but overall not great."},
+        {"user": "Wanderlust3456", "rating": 2.7, "comment": "Very average experience, not worth the price."},
+        {"user": "Backpacker4567", "rating": 2.2, "comment": "Poor service and poorly managed trip."},
+        {"user": "Nomad5678", "rating": 2.5, "comment": "Some good moments, but overall underwhelming."},
+        {"user": "Jetsetter6789", "rating": 1.8, "comment": "Very disappointing trip, not worth it."},
+        {"user": "Traveler7890", "rating": 2.1, "comment": "Expected more, very underwhelming."},
+        {"user": "Explorer8901", "rating": 2.6, "comment": "Mediocre experience, could be better"},
+        {"user": "Globetrotter4567", "rating": 5, "comment": "Unforgettable adventure, will book again."},
+        {"user": "Wanderlust5678", "rating": 4.7, "comment": "Great value for the money, highly enjoyable."},
+        {"user": "Backpacker6789", "rating": 4.3, "comment": "Amazing tour, but food could be better."},
+        {"user": "Nomad7890", "rating": 5, "comment": "Best trip ever! Highly recommend."},
+        {"user": "Jetsetter8901", "rating": 4.6, "comment": "Fantastic experience, well-organized."},
+        {"user": "Traveler9012", "rating": 4.2, "comment": "Good tour, but some improvements needed."},
+        {"user": "Explorer0123", "rating": 4.9, "comment": "Incredible experience, perfect vacation."},
+        {"user": "Adventurer1234", "rating": 5, "comment": "Amazing tour, exceeded expectations."},
+        {"user": "Voyager2345", "rating": 4.4, "comment": "Enjoyable trip, but a bit crowded."},
+        {"user": "Globetrotter3456", "rating": 5, "comment": "Wonderful adventure, highly recommend."},
+        {"user": "Wanderlust4567", "rating": 4.7, "comment": "Great trip, well worth the money."},
+        {"user": "Backpacker5678", "rating": 4.1, "comment": "Good experience, but could use better coordination."},
+        {"user": "Nomad6789", "rating": 5, "comment": "Best vacation ever! Will book again."},
+        {"user": "Jetsetter7890", "rating": 4.5, "comment": "Very enjoyable tour with friendly staff."},
+        {"user": "Traveler8901", "rating": 4.8, "comment": "Wonderful experience, highly recommend."},
+        {"user": "Explorer9012", "rating": 4.3, "comment": "Good tour, but some activities were rushed."},
+        {"user": "Adventurer0123", "rating": 5, "comment": "Incredible adventure, highly recommend."},
+        {"user": "Voyager1234", "rating": 4.6, "comment": "Well planned and executed tour."},
+        {"user": "Globetrotter2345", "rating": 4.2, "comment": "Enjoyable trip, but too many people."},
+        {"user": "Wanderlust3456", "rating": 4.9, "comment": "Fantastic tour, worth every penny."},
+        {"user": "Backpacker4567", "rating": 5, "comment": "Amazing trip, perfect vacation."},
+        {"user": "Nomad5678", "rating": 4.7, "comment": "Great tour with knowledgeable guides."},
+        {"user": "Jetsetter6789", "rating": 4.4, "comment": "Good tour, but some parts felt rushed."},
+        {"user": "Traveler7890", "rating": 5, "comment": "Loved every minute of this tour."},
+        {"user": "Explorer8901", "rating": 4.5, "comment": "Very enjoyable tour with excellent guides."},
+      ],
+      "highlights": [
+        "Scenic Trekking Routes",
+        "Summit Views",
+        "Alpine Flora and Fauna"
+      ],
+      "inclusions": {
+        "meals": "All meals included",
+        "accommodations": "Camping and mountain huts",
+        "transportation": "All transfers and park entry fees included"
+      },
+      "exclusions": [
+        "Personal expenses",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "description": "Arrival in Nairobi and transfer to Mount Kenya base camp."
+        },
+        {
+          "day": 2,
+          "description": "Begin trekking to the first camp and acclimatize."
+        },
+        {
+          "day": 3,
+          "description": "Trek to higher camp with scenic views of the mountain."
+        },
+        {
+          "day": 4,
+          "description": "Summit attempt and return to base camp."
+        },
+        {
+          "day": 5,
+          "description": "Descent to lower camp and rest."
+        },
+        {
+          "day": 6,
+          "description": "Final descent to the base and transfer to Nairobi."
+        },
+        {
+          "day": 7,
+          "description": "Departure from Nairobi."
+        }
+      ],
+      "groupSize": {
+        "min": 2,
+        "max": 10
+      },
+      "images": [
+        "https://i.ibb.co/HhtYYmP/natural-africa-cliff-ocean-view.jpg"
+      ],
+      "contactInfo": {
+        "phone": "+2347089699162",
+        "email": "info@trafrica.com"
+      }
+    },
+    {
+      "id": 15,
+      "title": "Lalibela Rock-Hewn Churches Tour",
+      "location": "Ethiopia",
+      "description": "The Rock-Hewn Churches of Lalibela are a UNESCO World Heritage site and a marvel of medieval engineering. Carved directly into rock, these ancient churches are renowned for their unique architecture and spiritual significance, offering a profound cultural and historical experience.",
+      "duration": 7,
+      "durationString": "7 days",
+      "waitTime": 7,
+      "price": 170000,
+      "per": "person",
+      "currency": "NGN",
+      "symbol": "₦",
+      "rating": 4.7,
+      "reviews": [
+        {"user": "Wanderlust3456", "rating": 2.7, "comment": "Very average experience, not worth the price."},
+        {"user": "Backpacker4567", "rating": 2.2, "comment": "Poor service and poorly managed trip."},
+        {"user": "Nomad5678", "rating": 2.5, "comment": "Some good moments, but overall underwhelming."},
+        {"user": "Jetsetter6789", "rating": 1.8, "comment": "Very disappointing trip, not worth it."},
+        {"user": "Traveler7890", "rating": 2.1, "comment": "Expected more, very underwhelming."},
+        {"user": "Explorer8901", "rating": 2.6, "comment": "Mediocre experience, could be better"},
+        {"user": "Traveler012", "rating": 5, "comment": "Loved every minute, great service."},
+        {"user": "Explorer1234", "rating": 4.5, "comment": "Very enjoyable tour with excellent guides."},
+        {"user": "Adventurer2345", "rating": 4.8, "comment": "Wonderful trip, highly recommend."},
+        {"user": "Voyager3456", "rating": 4.1, "comment": "Good experience, but some parts were rushed."},
+        {"user": "Globetrotter4567", "rating": 5, "comment": "Unforgettable adventure, will book again."},
+        {"user": "Wanderlust5678", "rating": 4.7, "comment": "Great value for the money, highly enjoyable."},
+        {"user": "Backpacker6789", "rating": 4.3, "comment": "Amazing tour, but food could be better."},
+        {"user": "Nomad7890", "rating": 5, "comment": "Best trip ever! Highly recommend."},
+        {"user": "Jetsetter8901", "rating": 4.6, "comment": "Fantastic experience, well-organized."},
+        {"user": "Traveler9012", "rating": 4.2, "comment": "Good tour, but some improvements needed."},
+        {"user": "Explorer0123", "rating": 4.9, "comment": "Incredible experience, perfect vacation."},
+        {"user": "Adventurer1234", "rating": 5, "comment": "Amazing tour, exceeded expectations."},
+        {"user": "Voyager2345", "rating": 4.4, "comment": "Enjoyable trip, but a bit crowded."},
+        {"user": "Globetrotter3456", "rating": 5, "comment": "Wonderful adventure, highly recommend."},
+        {"user": "Wanderlust4567", "rating": 4.7, "comment": "Great trip, well worth the money."},
+        {"user": "Backpacker5678", "rating": 4.1, "comment": "Good experience, but could use better coordination."},
+        {"user": "Nomad6789", "rating": 5, "comment": "Best vacation ever! Will book again."},
+        {"user": "Jetsetter7890", "rating": 4.5, "comment": "Very enjoyable tour with friendly staff."},
+        {"user": "Traveler8901", "rating": 4.8, "comment": "Wonderful experience, highly recommend."},
+        {"user": "Explorer9012", "rating": 4.3, "comment": "Good tour, but some activities were rushed."},
+        {"user": "Adventurer0123", "rating": 5, "comment": "Incredible adventure, highly recommend."},
+        {"user": "Voyager1234", "rating": 4.6, "comment": "Well planned and executed tour."},
+        {"user": "Globetrotter2345", "rating": 4.2, "comment": "Enjoyable trip, but too many people."},
+        {"user": "Wanderlust3456", "rating": 4.9, "comment": "Fantastic tour, worth every penny."},
+        {"user": "Backpacker4567", "rating": 5, "comment": "Amazing trip, perfect vacation."},
+        {"user": "Nomad5678", "rating": 4.7, "comment": "Great tour with knowledgeable guides."},
+        {"user": "Jetsetter6789", "rating": 4.4, "comment": "Good tour, but some parts felt rushed."},
+        {"user": "Traveler7890", "rating": 5, "comment": "Loved every minute of this tour."},
+        {"user": "Explorer8901", "rating": 4.5, "comment": "Very enjoyable tour with excellent guides."},
+        {"user": "Adventurer9012", "rating": 4.8, "comment": "Wonderful trip, highly recommend."},
+        {"user": "Voyager0123", "rating": 4.1, "comment": "Good experience, but some improvements needed."}
+      ],
+      "highlights": [
+        "Guided Tours of Rock-Hewn Churches",
+        "Historical and Cultural Insights",
+        "Exploration of Ancient Ethiopian Architecture"
+      ],
+      "inclusions": {
+        "meals": "Daily breakfast and selected meals",
+        "accommodations": "Comfortable hotels",
+        "transportation": "All transfers and local transportation included"
+      },
+      "exclusions": [
+        "Personal expenses",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "description": "Arrival in Addis Ababa and transfer to Lalibela."
+        },
+        {
+          "day": 2,
+          "description": "Guided tour of the Rock-Hewn Churches of Lalibela."
+        },
+        {
+          "day": 3,
+          "description": "Explore additional churches and local historical sites."
+        },
+        {
+          "day": 4,
+          "description": "Visit to local markets and cultural sites in Lalibela."
+        },
+        {
+          "day": 5,
+          "description": "Day trip to nearby historic and scenic locations."
+        },
+        {
+          "day": 6,
+          "description": "Relax and enjoy leisure activities or additional exploration."
+        },
+        {
+          "day": 7,
+          "description": "Return to Addis Ababa and departure."
+        }
+      ],
+      "groupSize": {
+        "min": 2,
+        "max": 15
+      },
+      "images": [
+        "https://i.ibb.co/QmWXzDb/ethiopia-temple.jpg",
+        "https://i.ibb.co/X4m9KcR/ethiopia-worship-session.jpg"
+      ],
+      "contactInfo": {
+        "phone": "+2347089699162",
+        "email": "info@trafrica.com"
+      }
+    },
+    {
+      "id": 16,
+      "title": "Aksum Historical Tour",
+      "location": "Ethiopia",
+      "description": "Aksum, an ancient city in northern Ethiopia, is renowned for its historical significance and archaeological treasures. Known for its impressive stelae, ancient obelisks, and the Church of St. Mary of Zion, Aksum offers a deep dive into Ethiopia's rich cultural and historical heritage.",
+      "duration": 7,
+      "durationString": "7 days",
+      "waitTime": 7,
+      "price": 180000,
+      "per": "person",
+      "currency": "NGN",
+      "symbol": "₦",
+      "rating": 4.6,
+      "reviews": [
+        {"user": "Wanderlust3456", "rating": 2.7, "comment": "Very average experience, not worth the price."},
+        {"user": "Backpacker4567", "rating": 2.2, "comment": "Poor service and poorly managed trip."},
+        {"user": "Nomad5678", "rating": 2.5, "comment": "Some good moments, but overall underwhelming."},
+        {"user": "Jetsetter6789", "rating": 1.8, "comment": "Very disappointing trip, not worth it."},
+        {"user": "Traveler7890", "rating": 2.1, "comment": "Expected more, very underwhelming."},
+        {"user": "Explorer8901", "rating": 2.6, "comment": "Mediocre experience, could be better"},
+        {"user": "Globetrotter567", "rating": 4.3, "comment": "Enjoyable trip, but too many people."},
+        {"user": "Wanderlust678", "rating": 5, "comment": "Fantastic tour, highly recommend!"},
+        {"user": "Backpacker789", "rating": 4.6, "comment": "Well-organized and fun experience."},
+        {"user": "Nomad890", "rating": 4.2, "comment": "Good trip, but some activities were rushed."},
+        {"user": "Jetsetter901", "rating": 4.9, "comment": "Amazing experience, perfect vacation."},
+        {"user": "Traveler012", "rating": 5, "comment": "Loved every minute, great service."},
+        {"user": "Explorer1234", "rating": 4.5, "comment": "Very enjoyable tour with excellent guides."},
+        {"user": "Adventurer2345", "rating": 4.8, "comment": "Wonderful trip, highly recommend."},
+        {"user": "Voyager3456", "rating": 4.1, "comment": "Good experience, but some parts were rushed."},
+        {"user": "Globetrotter4567", "rating": 5, "comment": "Unforgettable adventure, will book again."},
+        {"user": "Wanderlust5678", "rating": 4.7, "comment": "Great value for the money, highly enjoyable."},
+        {"user": "Backpacker6789", "rating": 4.3, "comment": "Amazing tour, but food could be better."},
+        {"user": "Nomad7890", "rating": 5, "comment": "Best trip ever! Highly recommend."},
+        {"user": "Jetsetter8901", "rating": 4.6, "comment": "Fantastic experience, well-organized."},
+        {"user": "Traveler9012", "rating": 4.2, "comment": "Good tour, but some improvements needed."},
+        {"user": "Explorer0123", "rating": 4.9, "comment": "Incredible experience, perfect vacation."},
+        {"user": "Adventurer1234", "rating": 5, "comment": "Amazing tour, exceeded expectations."},
+        {"user": "Voyager2345", "rating": 4.4, "comment": "Enjoyable trip, but a bit crowded."},
+        {"user": "Globetrotter3456", "rating": 5, "comment": "Wonderful adventure, highly recommend."},
+        {"user": "Wanderlust4567", "rating": 4.7, "comment": "Great trip, well worth the money."},
+        {"user": "Backpacker5678", "rating": 4.1, "comment": "Good experience, but could use better coordination."},
+        {"user": "Nomad6789", "rating": 5, "comment": "Best vacation ever! Will book again."},
+        {"user": "Jetsetter7890", "rating": 4.5, "comment": "Very enjoyable tour with friendly staff."},
+        {"user": "Traveler8901", "rating": 4.8, "comment": "Wonderful experience, highly recommend."},
+        {"user": "Explorer9012", "rating": 4.3, "comment": "Good tour, but some activities were rushed."},
+        {"user": "Adventurer0123", "rating": 5, "comment": "Incredible adventure, highly recommend."},
+        {"user": "Voyager1234", "rating": 4.6, "comment": "Well planned and executed tour."},
+        {"user": "Globetrotter2345", "rating": 4.2, "comment": "Enjoyable trip, but too many people."},
+        {"user": "Wanderlust3456", "rating": 4.9, "comment": "Fantastic tour, worth every penny."},
+        {"user": "Backpacker4567", "rating": 5, "comment": "Amazing trip, perfect vacation."},
+        {"user": "Nomad5678", "rating": 4.7, "comment": "Great tour with knowledgeable guides."},
+        {"user": "Jetsetter6789", "rating": 4.4, "comment": "Good tour, but some parts felt rushed."},
+        {"user": "Traveler7890", "rating": 5, "comment": "Loved every minute of this tour."},
+        {"user": "Explorer8901", "rating": 4.5, "comment": "Very enjoyable tour with excellent guides."},
+        {"user": "Adventurer9012", "rating": 4.8, "comment": "Wonderful trip, highly recommend."},
+        {"user": "Voyager0123", "rating": 4.1, "comment": "Good experience, but some improvements needed."}
+      ],
+      "highlights": [
+        "Stelae Field Exploration",
+        "Church of St. Mary of Zion Visit",
+        "Ancient Obelisks and Ruins"
+      ],
+      "inclusions": {
+        "meals": "Daily breakfast and selected meals",
+        "accommodations": "Comfortable hotels",
+        "transportation": "All transfers and local transportation included"
+      },
+      "exclusions": [
+        "Personal expenses",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "description": "Arrival in Addis Ababa and transfer to Aksum."
+        },
+        {
+          "day": 2,
+          "description": "Guided tour of the Stelae Field and ancient obelisks."
+        },
+        {
+          "day": 3,
+          "description": "Visit the Church of St. Mary of Zion and the nearby historical sites."
+        },
+        {
+          "day": 4,
+          "description": "Explore the ancient ruins and archaeological sites in Aksum."
+        },
+        {
+          "day": 5,
+          "description": "Visit local markets and cultural sites."
+        },
+        {
+          "day": 6,
+          "description": "Relax and enjoy leisure activities or additional exploration."
+        },
+        {
+          "day": 7,
+          "description": "Return to Addis Ababa and departure."
+        }
+      ],
+      "groupSize": {
+        "min": 2,
+        "max": 15
+      },
+      "images": [
+        "https://i.ibb.co/znRYYZT/aksum-ethiopia.jpg",
+        "https://i.ibb.co/V26RX0c/ethiopia-temple0.jpg",
+        "https://i.ibb.co/QmWXzDb/ethiopia-temple.jpg"
+      ],
+      "contactInfo": {
+        "phone": "+2347089699162",
+        "email": "info@trafrica.com"
+      }
+    }
+  ]
+}
