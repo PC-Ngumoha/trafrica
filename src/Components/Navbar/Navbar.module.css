@@ -20,6 +20,12 @@
   top: 0;
 }
 
+.brandNoDesign {
+  text-decoration: none;
+  color: var(--color-primary);
+  font-family: var(--logo-font-family);
+}
+
 .section {
   display: flex;
   flex-direction: row;

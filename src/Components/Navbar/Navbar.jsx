@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGripVertical, faClose, faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { Link, useLocation } from 'react-router-dom';
 import Button from '../Button/Button';
 import styles from './Navbar.module.css';
 import { concatClasses } from '../../Utils/helpers';
 
-const Navbar = () => {
+const HomeNavbar = () => {
   const [open, setOpen] = useState(false);
   const [posY, setPosY] = useState(window.scrollY);
 
@@ -89,6 +90,47 @@ const Navbar = () => {
         </nav>
       )}
     </>
+  );
+};
+
+const OtherNavbar = () => {
+  const [posY, setPosY] = useState(window.scrollY);
+
+  useEffect(() => {
+    const updateScrollPos = () => {
+      setPosY(window.scrollY);
+    }
+
+    document.addEventListener('scroll', updateScrollPos);
+
+    return () => {
+      document.removeEventListener('scroll', updateScrollPos);
+    }
+  }, [posY]);
+
+  return (
+    <nav
+      className={
+        posY === 0
+        ? concatClasses(styles.navbar, styles.sticky)
+        : concatClasses(styles.navbar, styles.sticky, styles.opaque)
+      }
+    >
+      <div className={ concatClasses(styles.navbarBrand, styles.section) }>
+        <Link to='/' className={ styles.brandNoDesign }>
+          <FontAwesomeIcon icon={faLocationDot} />
+          Trafrica
+        </Link>
+      </div>
+    </nav>
+  );
+};
+
+const Navbar = () => {
+  const { pathname } = useLocation();
+
+  return (
+      pathname === '/' ? <HomeNavbar /> : <OtherNavbar />
   );
 };
 
