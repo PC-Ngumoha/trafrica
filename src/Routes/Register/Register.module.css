@@ -1,0 +1,129 @@
+/* REGISTER FORM STYLES */
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-soft-white);
+  color: var(--color-text);
+}
+
+.container .heading h2 {
+  font-family: var(--section-heading-fonts);
+}
+
+.container .form {
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: .2rem .2rem .2rem grey;
+  background-color: var(--color-white);
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container .form>div {
+  width: 100%;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.inputArea {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 2.8rem;
+}
+
+.inputArea input {
+  flex: 1;
+  height: 100%;
+  border: 0;
+  padding: 1rem;
+  font-family: var(--general-font-family);
+  color: var(--color-text);
+}
+
+.inputArea input::placeholder {
+  font-family: var(--general-font-family);
+  color: var(--color-text);
+}
+
+.inputArea input:hover {
+  outline: 0;
+  border: .01rem solid var(--color-primary);
+  border-radius: .5rem;
+}
+
+.inputArea input:focus {
+  outline: 0;
+  border: .1rem solid var(--color-primary);
+  border-radius: .5rem;
+}
+
+.errorInput {
+  outline: 0;
+  border: .2rem solid var(--color-error);
+  border-radius: .5rem;
+}
+
+.inputArea .icon {
+  margin-right: 1rem;
+  color: var(--color-primary);
+}
+
+.container .button {
+  width: 50%;
+}
+
+
+
+/* Mobile */
+@media (min-width: 320px) and (max-width: 599px) {
+
+  .container .heading h2 {
+    font-size: 2rem;
+  }
+
+  .container .form {
+    width: 70%;
+  }
+
+  .inputArea input {
+    font-size: .8rem;
+  }
+}
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 1023px) {
+  .container .heading h2 {
+    font-size: 2.8rem;
+  }
+
+  .container .form {
+    width: 60%;
+  }
+
+  .inputArea input {
+    font-size: 1rem;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .container .heading h2 {
+    font-size: 2.8rem;
+  }
+
+  .container .form {
+    width: 35%;
+  }
+
+  .inputArea input {
+    font-size: 1.2rem;
+  }
+}

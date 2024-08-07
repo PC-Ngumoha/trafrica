@@ -45,6 +45,9 @@ Section Heading fonts: 'Montserrat Alternates', sans-serif;
   --color-accent-orange: #FF7043;
   --color-accent-yellow: #FFD700;
 
+  /* Base colors */
+  --color-white: #FFFFFF;
+
   /* Complementary Colors */
   --color-light-khaki: #F0E68C;
   --color-soft-white: #F5F5F5;
@@ -52,7 +55,6 @@ Section Heading fonts: 'Montserrat Alternates', sans-serif;
   /* Extra Colors */
   --color-text: #3C2415;
   --color-error: #DC143C;
-
   --color-dark: #2a2826;
 
   /* Fonts */
