@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGripVertical, faClose, faLocationDot } from '@fortawesome/free-solid-svg-icons';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import Button from '../Button/Button';
 import styles from './Navbar.module.css';
 import { concatClasses } from '../../Utils/helpers';
@@ -9,6 +9,7 @@ import { concatClasses } from '../../Utils/helpers';
 const HomeNavbar = () => {
   const [open, setOpen] = useState(false);
   const [posY, setPosY] = useState(window.scrollY);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const updateScrollPos = () => {
@@ -77,8 +78,21 @@ const HomeNavbar = () => {
           <div className={
             concatClasses(styles.buttonContainer, styles.section)
           }>
-            <Button className={ styles.button } variant='outline' message='Login' />
-            <Button className={ styles.button } message='Register' />
+            <Button
+              className={ styles.button }
+              variant='outline'
+              message='Login'
+              onClick={() => {
+                navigate('/login');
+              }}
+            />
+            <Button
+              className={ styles.button }
+              message='Register'
+              onClick={() => {
+                navigate('/register');
+              }}
+            />
           </div>
           <div
             className={ concatClasses(styles.openMenu, styles.section) }
