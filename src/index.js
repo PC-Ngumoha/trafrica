@@ -7,12 +7,17 @@ import App from './App';
 import Home from "./Routes/Home/Home";
 import Login from "./Routes/Login/Login";
 import Register from "./Routes/Register/Register";
+import { AuthProvider } from "./Context/auth.context";
 
 // Implementing a basic browser router to handle the app's routing
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />,
+    element: (
+      <AuthProvider>
+        <App />
+      </AuthProvider>
+    ),
     children: [
       {
         path: '',

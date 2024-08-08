@@ -1,13 +1,45 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLock } from '@fortawesome/free-solid-svg-icons';
-import { Link } from 'react-router-dom';
+import { Link, Form, useNavigate } from 'react-router-dom';
 import Button from '../../Components/Button/Button';
 import styles from './Register.module.css';
 
+// export const registerAction = async ({ request }) => {
+//   const formData = await request.formData();
+//   const data = Object.fromEntries(formData);
+//   const {email, firstName, lastName } = data;
+//   window.localStorage.setItem('user', JSON.stringify({
+//     email,
+//     firstName,
+//     lastName
+//   }));
+//   return redirect('/login');
+// };
+
 const Register = () => {
+  const navigate = useNavigate();
+
+  const handleSubmit = (evt) => {
+    evt.preventDefault();
+    // const {email, firstName, lastName } = Object.fromEntries(evt.target);
+    const email = evt.target.email.value;
+    const firstName = evt.target.firstName.value;
+    const lastName = evt.target.lastName.value;
+    window.localStorage.setItem('user', JSON.stringify({
+      email,
+      firstName,
+      lastName
+    }));
+    return navigate('/login');
+    // console.log(evt.target.email.value);
+  };
+
   return (
     <main className={ styles.container }>
-      <form className={ styles.form }>
+      <Form
+        method='post'
+        className={ styles.form }
+        onSubmit={handleSubmit}>
         {/* Heading */}
         <div className={ styles.heading }>
           <h2>Join Us</h2>
@@ -71,7 +103,7 @@ const Register = () => {
         </div>
         {/* Submit */}
         <Button className={ styles.button } message="Register"/>
-      </form>
+      </Form>
     </main>
   );
 };
