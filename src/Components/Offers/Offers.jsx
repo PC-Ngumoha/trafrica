@@ -8,6 +8,15 @@ import styles from './Offers.module.css';
 import { topOffers } from './Offers.fixtures';
 
 
+/**
+ * Implements a grid of special offers and tour packages available.
+ *
+ * TODO
+ * - styling of this section could be handled in better and cleaner ways
+ *   [OPTIONAL]
+ *
+ * @returns <Offers />
+ */
 const Offers = () => {
   return (
     <section id="tours" className={ styles.offers }>

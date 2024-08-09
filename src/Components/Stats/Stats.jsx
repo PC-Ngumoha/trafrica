@@ -4,6 +4,18 @@ import Row from 'react-bootstrap/Row';
 import styles from './Stats.module.css';
 import { interestingStats } from './Stats.fixtures';
 
+/**
+ * Implements the "Interesting stats" section of the Home page which displays
+ * certain statistics about the platform that maybe of interest to the user.
+ *
+ * BUGS
+ * - The countdown effect in this section counts out during load-time for the
+ *   website. As a result, the user is unable to actually see it happening. I
+ *   want it to be able to wait for the user to view it before it starts
+ *   counting.
+ *
+ * @returns <Stats />
+ */
 const Stats = () => {
   const initialCount = [0, 0, 0, 0]
   const [count, setCount] = useState(initialCount);

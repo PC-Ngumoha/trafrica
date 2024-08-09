@@ -6,6 +6,18 @@ import { places } from './Hero.fixtures';
 import SearchBar from '../SearchBar/SearchBar';
 
 
+/**
+ * Implements the Hero section of the Home page
+ *
+ * BUGS
+ * - Transition of background is not smooth and does not occur in
+ *   sync with the typewriter effect displaying the user on possible
+ *   african locations they could visit.
+ * - Images have a longer load time. Hence slowing down the overall load-time
+ *   of the app.
+ *
+ * @returns <Hero />
+ */
 
 const Hero = () => {
   const [place, setPlace] = useState(places[0]);

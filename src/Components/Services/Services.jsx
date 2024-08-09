@@ -4,6 +4,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from './Services.module.css';
 import { ourServices } from './Services.fixtures';
 
+/**
+ * Implements the "Our Services" section of the Home page
+ *
+ * BUGS
+ * - The individual service cards are too close to each other and not very
+ *   good looking. This is bad U.I.
+ *
+ * @returns <Services />
+ */
+
 const Services = () => {
   return (
     <section id='services' className={styles.services}

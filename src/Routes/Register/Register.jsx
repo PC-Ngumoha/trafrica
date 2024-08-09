@@ -16,6 +16,17 @@ import styles from './Register.module.css';
 //   return redirect('/login');
 // };
 
+
+/**
+ * Implements Register form component
+ *
+ * TODO
+ * - Implement the Register functionality using localstorage & AuthContext
+ * - Refactor codebase to be much neater and easily improved
+ *
+ * @returns <Register />
+ */
+
 const Register = () => {
   const navigate = useNavigate();
 

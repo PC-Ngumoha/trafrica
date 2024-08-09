@@ -7,6 +7,8 @@ import { AuthContext } from '../../Context/auth.context';
 import styles from './Navbar.module.css';
 import { concatClasses } from '../../Utils/helpers';
 
+
+
 const HomeNavbar = () => {
   const [open, setOpen] = useState(false);
   const [posY, setPosY] = useState(window.scrollY);
@@ -187,6 +189,16 @@ const OtherNavbar = () => {
   );
 };
 
+
+/**
+ * Implements the general Navbar component for the app.
+ *
+ * TODO
+ * - Refactor the code
+ * - Maybe add additional features and segments [OPTIONAL]
+ *
+ * @returns <Navbar />
+ */
 const Navbar = () => {
   const { pathname } = useLocation();
 

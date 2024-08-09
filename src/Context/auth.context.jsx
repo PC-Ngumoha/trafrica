@@ -7,6 +7,16 @@ const initialState = {
   user: null,
 }
 
+/**
+ * Implements a simple context-based authentication system for the app.
+ * This authentication system currently relies on local storage API.
+ *
+ * BUGS
+ * - Does not yet work as it should. I'm finding it hard to explain further.
+ *
+ * @param {*} children - the components that will be enclosed in context.
+ * @returns <AuthProvider />
+ */
 export const AuthProvider = ({ children }) => {
   const [state, dispatch] = useReducer(userReducer, initialState);
 

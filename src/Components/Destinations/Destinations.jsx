@@ -4,7 +4,15 @@ import styles from './Destinations.module.css';
 import { popularDestinations } from './Destinations.fixtures';
 
 
-
+/**
+ * Implements the "Popular Destinations" carousel / slideshow
+ *
+ * TODO
+ *
+ * - Think of ways to improve the carousel [OPTIONAL]
+ *
+ * @returns <Destinations />
+ */
 const Destinations = () => {
   return (
     <section id='destinations' className={ styles.destinations }>

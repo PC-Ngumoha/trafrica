@@ -9,6 +9,7 @@ import Button from "../../Components/Button/Button";
 import { AuthContext } from "../../Context/auth.context";
 import styles from './Login.module.css';
 
+
 // export const loginAction = async ({ request }) => {
 //   const formData = await request.formData();
 //   const data = Object.fromEntries(formData);
@@ -31,6 +32,15 @@ import styles from './Login.module.css';
 // };
 
 
+/**
+ * Implements Login form component
+ *
+ * TODO
+ * - Implement the Login functionality using localstorage & AuthContext
+ * - Refactor codebase to be much neater and easily improved
+ *
+ * @returns <Login />
+ */
 const Login = () => {
   const { login } = useContext(AuthContext);
   const navigate = useNavigate();

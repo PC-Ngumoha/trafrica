@@ -1,6 +1,15 @@
 import Button from '../Button/Button';
 import styles from './CTA.module.css';
 
+/**
+ * Implements the "Call To Action" section
+ *
+ * TODO
+ * - Maybe the "Get Started" can be modified to be more aesthetically pleasing
+ *   [OPTIONAL]
+ *
+ * @returns <CTA />
+ */
 const CTA = () => {
   return (
     <section id='cta' className={ styles.cta }>
